@@ -4,11 +4,11 @@ const Layout = require('../src/engine.js');
 const prepared = require('../data/default-layout.json');
 const original = () => Layout.validate(structuredClone(prepared));
 const chest = (id, items=[]) => ({id,label:id,items});
-const empty = () => Layout.validate({format:'minecraft-storage-layout',schemaVersion:3,coordinateSystem:'wall-facing-tmb',floors:[],squares:[],chests:[],placements:{},staging:[]});
+const empty = () => Layout.clear(original());
 
 test('migrates the accepted layout without changing any chest assignment or contents', () => {
   const doc=original();
-  assert.equal(doc.schemaVersion,3);
+  assert.equal(doc.schemaVersion,4);
   assert.equal(doc.floors.length,8);
   assert.equal(doc.chests.length,837);
   assert.deepEqual(doc.placements,prepared.placements);
@@ -99,7 +99,7 @@ test('wall-facing orientation keeps bottom chests inward and facing-left column 
 
 test('export/import preserves edits and regenerates neighbors for the current walls', () => {
   let doc=original(),floor=doc.floors[0];
-  doc=Layout.saveFloor(doc,{...floor,walls:['T','R','L','B']});
+  doc=Layout.saveFloor(doc,{...floor,walls:['T','R','L','B'],moduleCounts:{...floor.moduleCounts,B:3}});
   doc=Layout.saveChest(doc,chest('custom',[{name:'A <custom> item',itemId:'example:item'}]));
   doc=Layout.move(doc,'custom','F0B1-T1');
   const exported=Layout.exportDocument(doc);
@@ -117,4 +117,54 @@ test('invalid imports cannot duplicate, lose, or reference unknown chests', () =
   assert.throws(()=>Layout.validate(missing),/missing/);
   const unknown=structuredClone(doc);unknown.placements[slots[0]]='unknown';
   assert.throws(()=>Layout.validate(unknown),/unknown/);
+});
+
+test('each wall has independent module counts and shrinking stages exactly the removed chests', () => {
+  const before=original(),floor=before.floors[0];
+  const doc=Layout.saveFloor(before,{...floor,walls:['T','R','B','L'],moduleCounts:{T:1,R:4,B:12,L:2}});
+  assert.equal(doc.squares.filter(s=>s.floor===0).length,19);
+  assert.equal(doc.staging.length,27);
+  const removed=Object.entries(before.placements).filter(([s])=>/^F0(T[23]|L3)-/.test(s)).map(([,c])=>c);
+  assert.deepEqual(new Set(doc.staging),new Set(removed));
+  assert.equal(doc.placements['F0R4-T1'],null);
+  let moved=Layout.move(doc,removed[0],'F0B12-B3');
+  assert.equal(Layout.index(moved).locations.get(removed[0]),'F0B12-B3');
+  assert.deepEqual(Layout.validate(JSON.parse(JSON.stringify(Layout.exportDocument(moved)))),moved);
+  assert.equal(Layout.index(moved).slots.get('F0B11-T1').neighbors.nextOnWall,'F0B12-T3');
+  assert.deepEqual(before,original());
+});
+
+test('unequal wall lengths use their actual endpoints for corner neighbors', () => {
+  const doc=Layout.saveFloor(empty(),{id:0,name:'Unequal',walls:['T','R','B','L'],moduleCounts:{T:1,R:4,B:12,L:2}});
+  const slots=Layout.index(doc).slots;
+  assert.ok(slots.get('F0T1-T3').cornerNeighbors.includes('F0R1-T1'));
+  assert.ok(slots.get('F0L2-T1').cornerNeighbors.includes('F0B1-T3'));
+  assert.ok(slots.get('F0B12-T1').cornerNeighbors.includes('F0R4-T3'));
+  for(const slot of slots.values()) {
+    for(const neighbor of slot.cornerNeighbors) assert.ok(slots.get(neighbor).cornerNeighbors.includes(slot.id));
+  }
+});
+
+test('large wall counts work without imposing the former three-module structure', () => {
+  const doc=Layout.saveFloor(empty(),{id:0,name:'Large wall',walls:['L'],moduleCounts:{L:1000}});
+  assert.equal(doc.squares.length,1000);
+  assert.equal(Object.keys(doc.placements).length,9000);
+  assert.equal(Layout.index(doc).slots.get('F0L999-M1').neighbors.nextOnWall,'F0L1000-M3');
+});
+
+test('invalid wall counts are rejected before allocating slots', () => {
+  for(const count of [-1,0,1.5,1001,Infinity,'3']) {
+    assert.throws(()=>Layout.saveFloor(empty(),{id:0,name:'Invalid',walls:['T'],moduleCounts:{T:count}}),/modules/);
+  }
+  const bad=original();bad.floors[0].moduleCounts.B=-1;
+  assert.throws(()=>Layout.validate(bad),/module counts/);
+});
+
+test('clear removes floors, chests, placements and staging without mutating the previous layout', () => {
+  const before=Layout.move(original(),original().chests[0].id,null);
+  const snapshot=structuredClone(before),doc=Layout.clear(before);
+  for(const key of ['floors','squares','chests','staging']) assert.deepEqual(doc[key],[]);
+  assert.deepEqual(doc.placements,{});
+  assert.deepEqual(before,snapshot);
+  assert.deepEqual(Layout.validate(Layout.exportDocument(doc)),doc);
 });
