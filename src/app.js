@@ -1,18 +1,24 @@
-const STORAGE_KEY = 'minecraft_storage_editor_v3';
-const LEGACY_STORAGE_KEYS = ['minecraft_storage_editor_v2','minecraft_storage_editor_v1'];
+const STORAGE_KEY = 'copper_layouts_v4';
+const LEGACY_STORAGE_KEYS = ['minecraft_storage_editor_v3','minecraft_storage_editor_v2','minecraft_storage_editor_v1'];
 const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const normalize = value => String(value).toLowerCase().normalize('NFKD').replace(/\p{Diacritic}/gu,'');
+const itemCatalog=Catalog.create(ITEM_CATALOG);
+function readLayout(raw) {
+  const validated=Layout.validate(raw);
+  return raw.schemaVersion<4?Layout.validate(itemCatalog.repairPreset(validated,INITIAL_LAYOUT,LEGACY_PRESET)):validated;
+}
 let layout = Layout.validate(INITIAL_LAYOUT), floor = 0, selected = 'chest-F0L3-U3';
 let indexes, picked = null, dragged = null, dropHighlight = null, ignoreClickUntil = 0;
 let noticeTimer, undoStack = [], redoStack = [];
+const wallScrolls=new Map();
 let startupError = '', migratedCache = false;
 try {
   const cached = localStorage.getItem(STORAGE_KEY) || LEGACY_STORAGE_KEYS.map(key=>localStorage.getItem(key)).find(Boolean);
   if (cached) {
     const parsed = JSON.parse(cached);
-    layout = Layout.validate(parsed);
-    migratedCache = parsed.schemaVersion < 3;
+    layout = readLayout(parsed);
+    migratedCache = parsed.schemaVersion < 4;
     if (layout.floors.some(f=>f.id===parsed.view?.floor)) floor = parsed.view.floor;
     if (layout.chests.some(c=>c.id===parsed.view?.selected)) selected = parsed.view.selected;
   }
@@ -110,26 +116,29 @@ function renderFloors() {
   $('editFloor').hidden=!f;
 }
 function renderBoard() {
+  for(const node of document.querySelectorAll('[data-wall-scroll]')) wallScrolls.set(node.dataset.floor+':'+node.dataset.wallScroll,{left:node.scrollLeft,top:node.scrollTop});
   $('map').classList.toggle('empty-map',!indexes.floors.has(floor));
   const f=indexes.floors.get(floor);
-  const squares=layout.squares.filter(s=>s.floor===floor).sort((a,b)=>{
-    const p=Layout.coordinates[a.wall+a.section],q=Layout.coordinates[b.wall+b.section];
-    return p[0]-q[0] || p[1]-q[1];
-  });
-  $('map').innerHTML=squares.map(s=>{
-    const [r,c]=Layout.coordinates[s.wall+s.section];
-    return `<section class="square" style="grid-row:${r};grid-column:${c}" aria-label="${s.id}"><div class="square-heading"><span>${s.id}</span></div><div class="square-grid">${Layout.displaySlotsOf(s).map(id=>tile(layout.placements[id],id)).join('')}</div></section>`;
-  }).join('')+`<div class="workspace ${f?'':'without-floor'}"><section id="inspector" class="inspector" aria-label="Selected chest contents"></section><section class="staging" aria-label="Shared chest staging"><div class="staging-heading"><h2>Staging</h2><span class="stage-count">${layout.staging.length}</span><span class="stage-scope">All floors</span></div><div id="stagingDrop" class="staging-drop ${picked?'pick-target':''}" tabindex="0" role="group" aria-label="Staging area; drop chests here">${layout.staging.length?layout.staging.map(id=>tile(id)).join(''):'<div class="stage-empty">Drop chests here</div>'}</div></section></div>`;
-  if(f) for(const wall of ['T','R','B','L'].filter(w=>!f.walls.includes(w))) $('map').insertAdjacentHTML('beforeend',`<div class="wall-opening wall-${wall}">Open</div>`);
+  const names={T:'Top',R:'Right',B:'Bottom',L:'Left'};
+  const walls=f?['T','R','B','L'].map(wall=>{
+    if(!f.walls.includes(wall)) return `<div class="wall-opening wall-${wall}">Open</div>`;
+    const squares=layout.squares.filter(s=>s.floor===floor&&s.wall===wall).sort((a,b)=>a.section-b.section);
+    return `<section class="wall-panel wall-${wall}" aria-label="${names[wall]} wall"><div class="wall-scroll" data-wall-scroll="${wall}" data-floor="${floor}" tabindex="0" aria-label="${names[wall]} wall, ${squares.length} modules"><div class="wall-contents">${squares.map(s=>`<section class="square" aria-label="${s.id}"><div class="square-heading"><span>${s.id}</span></div><div class="square-grid">${Layout.displaySlotsOf(s).map(id=>tile(layout.placements[id],id)).join('')}</div></section>`).join('')}</div></div></section>`;
+  }).join(''):'';
+  $('map').innerHTML=walls+`<div class="workspace ${f?'':'without-floor'}"><section id="inspector" class="inspector" aria-label="Selected chest contents"></section><section class="staging" aria-label="Shared chest staging"><div class="staging-heading"><h2>Staging</h2><span class="stage-count">${layout.staging.length}</span><span class="stage-scope">All floors</span></div><div id="stagingDrop" class="staging-drop ${picked?'pick-target':''}" tabindex="0" role="group" aria-label="Staging area; drop chests here">${layout.staging.length?layout.staging.map(id=>tile(id)).join(''):'<div class="stage-empty">Drop chests here</div>'}</div></section></div>`;
+  for(const node of document.querySelectorAll('[data-wall-scroll]')) {
+    const previous=wallScrolls.get(floor+':'+node.dataset.wallScroll);
+    if(previous) {node.scrollLeft=previous.left;node.scrollTop=previous.top;}
+  }
   renderInspector();
 }
 function renderInspector() {
   const c=indexes.chests.get(selected);
-  if(!c) { $('inspector').innerHTML='<p class="empty-detail">Select or create a chest.</p>';return; }
+  if(!c) { $('inspector').innerHTML=`<p class="empty-detail">${layout.floors.length?'Select or create a chest.':'Add a floor or create a chest to start.'}</p>`;return; }
   const location=indexes.locations.get(selected);
   const actions=`<div class="inspector-actions"><button type="button" data-action="edit">Edit</button><button type="button" data-action="pick">${picked?'Cancel move':'Move'}</button>${location!==null?'<button type="button" data-action="stage" title="Move this chest to staging">Stage</button>':''}<button type="button" class="danger quiet" data-action="delete">Delete</button></div>`;
   const pickedName=picked?indexes.chests.get(picked)?.label:'';
-  $('inspector').innerHTML=`<div class="inspector-head"><div><span class="eyebrow">${location || 'Staging'}</span><h2>${escapeHTML(c.label)}</h2></div>${actions}</div>${c.items.length?`<ul class="item-list">${c.items.map(i=>`<li><span>${escapeHTML(i.name)}</span></li>`).join('')}</ul>`:'<p class="empty-detail">No items yet.</p>'}${picked?`<div class="move-hint">Place ${escapeHTML(pickedName)} in a slot or staging. Esc to cancel.</div>`:''}`;
+  $('inspector').innerHTML=`<div class="inspector-head"><div><span class="eyebrow">${location || 'Staging'}</span><h2>${escapeHTML(c.label)}</h2></div>${actions}</div>${c.items.length?`<ul class="item-list">${c.items.map(i=>`<li title="${escapeHTML(i.itemId||'Custom item')}"><span>${escapeHTML(i.name)}${i.name==='Music Disc'&&i.itemId?`<small class="item-variant">${escapeHTML(i.itemId.replace('minecraft:music_disc_','').replace(/_/g,' '))}</small>`:''}</span></li>`).join('')}</ul>`:'<p class="empty-detail">No items yet.</p>'}${picked?`<div class="move-hint">Place ${escapeHTML(pickedName)} in a slot or staging. Esc to cancel.</div>`:''}`;
 }
 function markSelection() {
   for(const node of document.querySelectorAll('[data-chest]')) {
@@ -145,6 +154,7 @@ function render() {
   renderFloors();renderBoard();markSelection();renderSearch();
   $('undo').disabled=!undoStack.length;
   $('redo').disabled=!redoStack.length;
+  $('clearLayout').disabled=!layout.floors.length&&!layout.chests.length;
 }
 function selectChest(id,jump=false) {
   if(!indexes.chests.has(id)) return;
@@ -174,7 +184,7 @@ function setFloor(id) {
   render();save();
 }
 function matchingChests(query) {
-  const words=normalize(query).replace(/(f\d+[trlb][1-3]-)([ud])([1-3])/g,(all,base,row,col)=>base+(row==='u'?'t':'b')+col).trim().split(/\s+/).filter(Boolean);
+  const words=normalize(query).replace(/(f\d+[trlb][1-9]\d*-)([ud])([1-3])/g,(all,base,row,col)=>base+(row==='u'?'t':'b')+col).trim().split(/\s+/).filter(Boolean);
   if(!words.length) return [];
   return layout.chests.filter(c=>{
     const location=indexes.locations.get(c.id);
@@ -204,8 +214,8 @@ function closeSearch(clear=false) {
 async function importLayout(file) {
   if(!file) return;
   try {
-    if(file.size>15*1024*1024) throw new Error('The file is larger than 15 MB.');
-    const next=Layout.validate(JSON.parse(await file.text()));
+    if(file.size>64*1024*1024) throw new Error('The file is larger than 64 MB.');
+    const next=readLayout(JSON.parse(await file.text()));
     showError('');
     clearDrag();
     commit(next,'Layout imported');
@@ -216,7 +226,7 @@ function exportLayout() {
   const url=URL.createObjectURL(new Blob([json],{type:'application/json'}));
   const link=document.createElement('a');
   link.href=url;
-  link.download='minecraft-storage-layout-'+new Date().toISOString().replace(/[:.]/g,'-')+'.json';
+  link.download='copper-layouts-'+new Date().toISOString().replace(/[:.]/g,'-')+'.json';
   document.body.appendChild(link);link.click();link.remove();
   setTimeout(()=>URL.revokeObjectURL(url),1000);
   notify('Complete layout exported');

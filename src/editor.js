@@ -22,7 +22,7 @@ function openChestEditor(id=null,target=null) {
 
 function renderDraftItems() {
   $('draftItemCount').textContent=chestDraft.items.length;
-  $('draftItems').innerHTML=chestDraft.items.length?chestDraft.items.map((item,i)=>`<div class="draft-item"><input data-item-name="${i}" aria-label="Item name ${i+1}" value="${escapeHTML(item.name)}" required maxlength="500" autocomplete="off"><button type="button" class="quiet remove-item" data-remove-item="${i}" aria-label="Remove ${escapeHTML(item.name)}">✕</button></div>`).join(''):'<p class="empty-detail">No items yet.</p>';
+  $('draftItems').innerHTML=chestDraft.items.length?chestDraft.items.map((item,i)=>`<div class="draft-item"><div class="draft-item-field"><input data-item-name="${i}" aria-label="Item name ${i+1}" value="${escapeHTML(item.name)}" required maxlength="500" autocomplete="off"><small>${escapeHTML(item.itemId||'Custom item')}</small></div><button type="button" class="quiet remove-item" data-remove-item="${i}" aria-label="Remove ${escapeHTML(item.name)}">✕</button></div>`).join(''):'<p class="empty-detail">No items yet.</p>';
 }
 
 function catalogMatches(query) {
@@ -53,10 +53,10 @@ function openFloorEditor(id=null) {
   const f=id===null?null:indexes.floors.get(id);
   if(id!==null&&!f) return;
   floorIsNew=!f;
-  floorDraft=f?structuredClone(f):{id:Math.max(-1,...layout.floors.map(f=>f.id))+1,name:'New floor',shortName:'New floor',walls:['T','R','B','L']};
+  floorDraft=f?structuredClone(f):{id:Math.max(-1,...layout.floors.map(f=>f.id))+1,name:'New floor',shortName:'New floor',walls:['T','R','B','L'],moduleCounts:{T:3,R:3,B:3,L:3}};
   $('floorEditorHeading').textContent=f?'Edit floor':'Create floor';
   $('floorTitle').value=floorDraft.name;
-  for(const input of $('floorForm').querySelectorAll('input[name=wall]')) input.checked=floorDraft.walls.includes(input.value);
+  for(const input of $('floorForm').querySelectorAll('[data-wall-count]')) input.value=floorDraft.moduleCounts[input.dataset.wallCount];
   $('deleteFloor').hidden=!f;
   $('floorEditError').hidden=true;
   $('floorEditor').showModal();$('floorTitle').focus();
@@ -66,6 +66,11 @@ function openFloorEditor(id=null) {
 $('newChest').addEventListener('click',()=>openChestEditor());
 $('newFloor').addEventListener('click',()=>openFloorEditor());
 $('editFloor').addEventListener('click',()=>openFloorEditor(floor));
+$('clearLayout').addEventListener('click',()=>$('clearEditor').showModal());
+$('confirmClear').addEventListener('click',()=>{
+  $('clearEditor').close();clearDrag();closeSearch(true);
+  commit(Layout.clear(layout),'Layout cleared · Undo to restore');
+});
 $('catalogSearch').addEventListener('input',renderCatalog);
 $('catalogSearch').addEventListener('keydown',event=>{
   if(event.key==='Enter'&&$('catalogSearch').value.trim()) {
@@ -102,8 +107,10 @@ $('floorForm').addEventListener('submit',event=>{
   event.preventDefault();
   try {
     const name=$('floorTitle').value.trim();
-    const walls=[...$('floorForm').querySelectorAll('input[name=wall]:checked')].map(i=>i.value);
-    const next=Layout.saveFloor(layout,{...floorDraft,name,shortName:name,walls});
+    const moduleCounts=Object.fromEntries([...$('floorForm').querySelectorAll('[data-wall-count]')].map(i=>[i.dataset.wallCount,i.valueAsNumber]));
+    if(Object.values(moduleCounts).some(n=>!Number.isSafeInteger(n)||n<0||n>Layout.MAX_MODULES_PER_WALL)) throw new Error(`Use a whole number from 0 to ${Layout.MAX_MODULES_PER_WALL.toLocaleString()} for each wall.`);
+    const walls=['T','R','B','L'].filter(w=>moduleCounts[w]>0);
+    const next=Layout.saveFloor(layout,{...floorDraft,name,shortName:name,walls,moduleCounts});
     const staged=next.staging.length-layout.staging.length;
     floor=floorDraft.id;
     $('floorEditor').close();

@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="dark">
-<title>Minecraft storage · chest editor</title>
+<title>CopperLayouts · Minecraft storage</title>
 <style>/*__STYLE__*/</style>
 </head>
 <body>
 <div class="app">
   <header class="toolbar">
-    <div class="brand"><span class="chest-mark" aria-hidden="true"></span><strong>Storage</strong></div>
+    <div class="brand"><span class="chest-mark" aria-hidden="true"></span><strong>CopperLayouts</strong></div>
     <div class="search-wrap">
       <label class="sr-only" for="search">Search items or chest positions on all floors</label>
       <input id="search" type="search" placeholder="Search items or positions…" autocomplete="off" aria-controls="results" aria-expanded="false">
@@ -21,6 +21,7 @@
       <button id="undo" class="quiet" type="button" title="Undo (Ctrl/Cmd+Z)" disabled>↶ <span>Undo</span></button>
       <button id="redo" class="quiet" type="button" title="Redo (Ctrl/Cmd+Shift+Z)" disabled>↷ <span>Redo</span></button>
       <span class="divider" aria-hidden="true"></span>
+      <button id="clearLayout" type="button" class="quiet" title="Start with an empty layout">Clear</button>
       <button id="import" type="button" title="Open a complete layout JSON file">Import</button>
       <button id="export" class="primary" type="button" title="Download every floor, chest and staging assignment">Export</button>
       <input id="importFile" type="file" accept=".json,application/json" hidden>
@@ -48,18 +49,25 @@
   <form id="floorForm">
     <div class="dialog-heading"><h2 id="floorEditorHeading">Edit floor</h2><button type="button" data-close="floorEditor" class="quiet" aria-label="Close floor editor">✕</button></div>
     <label class="field">Floor name<input id="floorTitle" required maxlength="300" autocomplete="off"></label>
-    <fieldset class="wall-options"><legend>Walls</legend><label><input type="checkbox" name="wall" value="T">Top</label><label><input type="checkbox" name="wall" value="R">Right</label><label><input type="checkbox" name="wall" value="B">Bottom</label><label><input type="checkbox" name="wall" value="L">Left</label></fieldset>
-    <p class="form-hint">Chests from removed walls or floors move to staging.</p>
+    <fieldset class="wall-options"><legend>3×3 modules per wall</legend><label>Top<input type="number" name="wall-T" data-wall-count="T" min="0" max="1000" step="1" required></label><label>Right<input type="number" name="wall-R" data-wall-count="R" min="0" max="1000" step="1" required></label><label>Bottom<input type="number" name="wall-B" data-wall-count="B" min="0" max="1000" step="1" required></label><label>Left<input type="number" name="wall-L" data-wall-count="L" min="0" max="1000" step="1" required></label></fieldset>
+    <p class="form-hint">0 leaves a wall open. Chests from removed modules move to staging.</p>
     <p id="floorEditError" class="form-error" role="alert" hidden></p>
     <div class="dialog-actions"><button id="deleteFloor" type="button" class="danger">Delete floor</button><span class="action-spacer"></span><button type="button" data-close="floorEditor">Cancel</button><button type="submit" class="primary">Save floor</button></div>
   </form>
+</dialog>
+<dialog id="clearEditor" class="editor-dialog floor-dialog" aria-labelledby="clearHeading">
+  <div class="dialog-heading"><h2 id="clearHeading">Clear layout?</h2><button type="button" data-close="clearEditor" class="quiet" aria-label="Close clear layout">✕</button></div>
+  <p>Remove every floor, chest, and staged item. You can Undo this while the page stays open.</p>
+  <div class="dialog-actions"><button type="button" data-close="clearEditor">Cancel</button><button id="confirmClear" type="button" class="danger">Clear layout</button></div>
 </dialog>
 <div id="notice" class="notice" role="status" aria-live="polite"></div>
 <script>
 'use strict';
 const INITIAL_LAYOUT=/*__DATA__*/;
 const ITEM_CATALOG=/*__CATALOG__*/;
+const LEGACY_PRESET=/*__LEGACY_PRESET__*/;
 /*__ENGINE__*/
+/*__CATALOG_CODE__*/
 /*__APP__*/
 /*__EDITOR__*/
 </script>
