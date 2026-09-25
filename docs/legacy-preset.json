@@ -1,0 +1,5762 @@
+{
+    "chest-F0R3-U1": {
+        "label": "Crimson fungus",
+        "names": [
+            "crimson fungus"
+        ]
+    },
+    "chest-F0R3-U2": {
+        "label": "Warped fungus",
+        "names": [
+            "warped fungus"
+        ]
+    },
+    "chest-F0R3-U3": {
+        "label": "Bamboo",
+        "names": [
+            "bamboo"
+        ]
+    },
+    "chest-F0R3-M1": {
+        "label": "Nether wart block",
+        "names": [
+            "nether wart block"
+        ]
+    },
+    "chest-F0R3-M2": {
+        "label": "Warped wart block",
+        "names": [
+            "warped wart block"
+        ]
+    },
+    "chest-F0R3-M3": {
+        "label": "Scaffolding",
+        "names": [
+            "scaffolding"
+        ]
+    },
+    "chest-F0R3-D1": {
+        "label": "Crimson roots",
+        "names": [
+            "crimson roots",
+            "weeping vines"
+        ]
+    },
+    "chest-F0R3-D2": {
+        "label": "Warped roots",
+        "names": [
+            "warped roots",
+            "twisting vines",
+            "nether sprouts"
+        ]
+    },
+    "chest-F0R3-D3": {
+        "label": "Note block",
+        "names": [
+            "note block",
+            "jukebox"
+        ]
+    },
+    "chest-F0R2-U1": {
+        "label": "Cherry sapling",
+        "names": [
+            "cherry sapling"
+        ]
+    },
+    "chest-F0R2-U2": {
+        "label": "Pale oak sapling",
+        "names": [
+            "pale oak sapling"
+        ]
+    },
+    "chest-F0R2-U3": {
+        "label": "Poplar sapling",
+        "names": [
+            "poplar sapling"
+        ]
+    },
+    "chest-F0R2-M1": {
+        "label": "Cherry leaves",
+        "names": [
+            "cherry leaves"
+        ]
+    },
+    "chest-F0R2-M2": {
+        "label": "Pale oak leaves",
+        "names": [
+            "pale oak leaves"
+        ]
+    },
+    "chest-F0R2-M3": {
+        "label": "Poplar leaves",
+        "names": [
+            "red poplar leaves",
+            "orange poplar leaves",
+            "yellow poplar leaves"
+        ]
+    },
+    "chest-F0R2-D1": {
+        "label": "Crafting table",
+        "names": [
+            "crafting table",
+            "cartography table",
+            "fletching table",
+            "loom",
+            "composter",
+            "lectern"
+        ]
+    },
+    "chest-F0R2-D2": {
+        "label": "Item frame",
+        "names": [
+            "item frame",
+            "glow item frame",
+            "armor stand",
+            "painting"
+        ]
+    },
+    "chest-F0R2-D3": {
+        "label": "Charcoal",
+        "names": [
+            "charcoal"
+        ]
+    },
+    "chest-F0R1-U1": {
+        "label": "Acacia sapling",
+        "names": [
+            "acacia sapling"
+        ]
+    },
+    "chest-F0R1-U2": {
+        "label": "Dark oak sapling",
+        "names": [
+            "dark oak sapling"
+        ]
+    },
+    "chest-F0R1-U3": {
+        "label": "Mangrove propagule",
+        "names": [
+            "mangrove propagule"
+        ]
+    },
+    "chest-F0R1-M1": {
+        "label": "Acacia leaves",
+        "names": [
+            "acacia leaves"
+        ]
+    },
+    "chest-F0R1-M2": {
+        "label": "Dark oak leaves",
+        "names": [
+            "dark oak leaves"
+        ]
+    },
+    "chest-F0R1-M3": {
+        "label": "Mangrove leaves",
+        "names": [
+            "mangrove leaves"
+        ]
+    },
+    "chest-F0R1-D1": {
+        "label": "Barrel",
+        "names": [
+            "barrel"
+        ]
+    },
+    "chest-F0R1-D2": {
+        "label": "Bookshelf",
+        "names": [
+            "bookshelf",
+            "chiseled bookshelf"
+        ]
+    },
+    "chest-F0R1-D3": {
+        "label": "Mangrove roots",
+        "names": [
+            "mangrove roots",
+            "muddy mangrove roots"
+        ]
+    },
+    "chest-F0T3-U1": {
+        "label": "Spruce sapling",
+        "names": [
+            "spruce sapling"
+        ]
+    },
+    "chest-F0T3-U2": {
+        "label": "Birch sapling",
+        "names": [
+            "birch sapling"
+        ]
+    },
+    "chest-F0T3-U3": {
+        "label": "Jungle sapling",
+        "names": [
+            "jungle sapling"
+        ]
+    },
+    "chest-F0T3-M1": {
+        "label": "Spruce leaves",
+        "names": [
+            "spruce leaves"
+        ]
+    },
+    "chest-F0T3-M2": {
+        "label": "Birch leaves",
+        "names": [
+            "birch leaves"
+        ]
+    },
+    "chest-F0T3-M3": {
+        "label": "Jungle leaves",
+        "names": [
+            "jungle leaves"
+        ]
+    },
+    "chest-F0T3-D1": {
+        "label": "Ladder",
+        "names": [
+            "ladder"
+        ]
+    },
+    "chest-F0T3-D2": {
+        "label": "Chest",
+        "names": [
+            "chest",
+            "trapped chest"
+        ]
+    },
+    "chest-F0T3-D3": {
+        "label": "Bowl",
+        "names": [
+            "bowl",
+            "wooden pickaxe",
+            "wooden axe",
+            "wooden shovel",
+            "wooden sword",
+            "wooden hoe"
+        ]
+    },
+    "chest-F0T2-U1": {
+        "label": "Bamboo source blocks",
+        "names": [
+            "block of bamboo"
+        ]
+    },
+    "chest-F0T2-U2": {
+        "label": "Bamboo mosaic source blocks",
+        "names": [
+            "stripped bamboo block"
+        ]
+    },
+    "chest-F0T2-U3": {
+        "label": "Oak sapling",
+        "names": [
+            "oak sapling"
+        ]
+    },
+    "chest-F0T2-M1": {
+        "label": "Bamboo planks & slabs",
+        "names": [
+            "bamboo planks",
+            "bamboo slab"
+        ]
+    },
+    "chest-F0T2-M2": {
+        "label": "Bamboo mosaic & slabs",
+        "names": [
+            "bamboo mosaic",
+            "bamboo mosaic slab"
+        ]
+    },
+    "chest-F0T2-M3": {
+        "label": "Oak leaves",
+        "names": [
+            "oak leaves"
+        ]
+    },
+    "chest-F0T2-D1": {
+        "label": "Bamboo creations",
+        "names": [
+            "bamboo stairs",
+            "bamboo fence",
+            "bamboo fence gate",
+            "bamboo door",
+            "bamboo trapdoor",
+            "bamboo sign",
+            "bamboo hanging sign",
+            "bamboo button",
+            "bamboo pressure plate",
+            "bamboo raft",
+            "bamboo chest raft"
+        ]
+    },
+    "chest-F0T2-D2": {
+        "label": "Bamboo mosaic creations",
+        "names": [
+            "bamboo mosaic stairs"
+        ]
+    },
+    "chest-F0T2-D3": {
+        "label": "Stick",
+        "names": [
+            "stick"
+        ]
+    },
+    "chest-F0T1-U1": {
+        "label": "Poplar logs & wood",
+        "names": [
+            "poplar log",
+            "stripped poplar log",
+            "poplar wood",
+            "stripped poplar wood"
+        ]
+    },
+    "chest-F0T1-U2": {
+        "label": "Crimson logs & wood",
+        "names": [
+            "crimson stem",
+            "stripped crimson stem",
+            "crimson hyphae",
+            "stripped crimson hyphae"
+        ]
+    },
+    "chest-F0T1-U3": {
+        "label": "Warped logs & wood",
+        "names": [
+            "warped stem",
+            "stripped warped stem",
+            "warped hyphae",
+            "stripped warped hyphae"
+        ]
+    },
+    "chest-F0T1-M1": {
+        "label": "Poplar planks & slabs",
+        "names": [
+            "poplar planks",
+            "poplar slab"
+        ]
+    },
+    "chest-F0T1-M2": {
+        "label": "Crimson planks & slabs",
+        "names": [
+            "crimson planks",
+            "crimson slab"
+        ]
+    },
+    "chest-F0T1-M3": {
+        "label": "Warped planks & slabs",
+        "names": [
+            "warped planks",
+            "warped slab"
+        ]
+    },
+    "chest-F0T1-D1": {
+        "label": "Poplar creations",
+        "names": [
+            "poplar stairs",
+            "poplar fence",
+            "poplar fence gate",
+            "poplar door",
+            "poplar trapdoor",
+            "poplar sign",
+            "poplar hanging sign",
+            "poplar button",
+            "poplar pressure plate",
+            "poplar boat",
+            "poplar chest boat"
+        ]
+    },
+    "chest-F0T1-D2": {
+        "label": "Crimson creations",
+        "names": [
+            "crimson stairs",
+            "crimson fence",
+            "crimson fence gate",
+            "crimson door",
+            "crimson trapdoor",
+            "crimson sign",
+            "crimson hanging sign",
+            "crimson button",
+            "crimson pressure plate"
+        ]
+    },
+    "chest-F0T1-D3": {
+        "label": "Warped creations",
+        "names": [
+            "warped stairs",
+            "warped fence",
+            "warped fence gate",
+            "warped door",
+            "warped trapdoor",
+            "warped sign",
+            "warped hanging sign",
+            "warped button",
+            "warped pressure plate"
+        ]
+    },
+    "chest-F0L1-U1": {
+        "label": "Pale oak logs & wood",
+        "names": [
+            "pale oak log",
+            "stripped pale oak log",
+            "pale oak wood",
+            "stripped pale oak wood"
+        ]
+    },
+    "chest-F0L1-U2": {
+        "label": "Cherry logs & wood",
+        "names": [
+            "cherry log",
+            "stripped cherry log",
+            "cherry wood",
+            "stripped cherry wood"
+        ]
+    },
+    "chest-F0L1-U3": {
+        "label": "Mangrove logs & wood",
+        "names": [
+            "mangrove log",
+            "stripped mangrove log",
+            "mangrove wood",
+            "stripped mangrove wood"
+        ]
+    },
+    "chest-F0L1-M1": {
+        "label": "Pale oak planks & slabs",
+        "names": [
+            "pale oak planks",
+            "pale oak slab"
+        ]
+    },
+    "chest-F0L1-M2": {
+        "label": "Cherry planks & slabs",
+        "names": [
+            "cherry planks",
+            "cherry slab"
+        ]
+    },
+    "chest-F0L1-M3": {
+        "label": "Mangrove planks & slabs",
+        "names": [
+            "mangrove planks",
+            "mangrove slab"
+        ]
+    },
+    "chest-F0L1-D1": {
+        "label": "Pale oak creations",
+        "names": [
+            "pale oak stairs",
+            "pale oak fence",
+            "pale oak fence gate",
+            "pale oak door",
+            "pale oak trapdoor",
+            "pale oak sign",
+            "pale oak hanging sign",
+            "pale oak button",
+            "pale oak pressure plate",
+            "pale oak boat",
+            "pale oak chest boat"
+        ]
+    },
+    "chest-F0L1-D2": {
+        "label": "Cherry creations",
+        "names": [
+            "cherry stairs",
+            "cherry fence",
+            "cherry fence gate",
+            "cherry door",
+            "cherry trapdoor",
+            "cherry sign",
+            "cherry hanging sign",
+            "cherry button",
+            "cherry pressure plate",
+            "cherry boat",
+            "cherry chest boat"
+        ]
+    },
+    "chest-F0L1-D3": {
+        "label": "Mangrove creations",
+        "names": [
+            "mangrove stairs",
+            "mangrove fence",
+            "mangrove fence gate",
+            "mangrove door",
+            "mangrove trapdoor",
+            "mangrove sign",
+            "mangrove hanging sign",
+            "mangrove button",
+            "mangrove pressure plate",
+            "mangrove boat",
+            "mangrove chest boat"
+        ]
+    },
+    "chest-F0L2-U1": {
+        "label": "Dark oak logs & wood",
+        "names": [
+            "dark oak log",
+            "stripped dark oak log",
+            "dark oak wood",
+            "stripped dark oak wood"
+        ]
+    },
+    "chest-F0L2-U2": {
+        "label": "Acacia logs & wood",
+        "names": [
+            "acacia log",
+            "stripped acacia log",
+            "acacia wood",
+            "stripped acacia wood"
+        ]
+    },
+    "chest-F0L2-U3": {
+        "label": "Jungle logs & wood",
+        "names": [
+            "jungle log",
+            "stripped jungle log",
+            "jungle wood",
+            "stripped jungle wood"
+        ]
+    },
+    "chest-F0L2-M1": {
+        "label": "Dark oak planks & slabs",
+        "names": [
+            "dark oak planks",
+            "dark oak slab"
+        ]
+    },
+    "chest-F0L2-M2": {
+        "label": "Acacia planks & slabs",
+        "names": [
+            "acacia planks",
+            "acacia slab"
+        ]
+    },
+    "chest-F0L2-M3": {
+        "label": "Jungle planks & slabs",
+        "names": [
+            "jungle planks",
+            "jungle slab"
+        ]
+    },
+    "chest-F0L2-D1": {
+        "label": "Dark oak creations",
+        "names": [
+            "dark oak stairs",
+            "dark oak fence",
+            "dark oak fence gate",
+            "dark oak door",
+            "dark oak trapdoor",
+            "dark oak sign",
+            "dark oak hanging sign",
+            "dark oak button",
+            "dark oak pressure plate",
+            "dark oak boat",
+            "dark oak chest boat"
+        ]
+    },
+    "chest-F0L2-D2": {
+        "label": "Acacia creations",
+        "names": [
+            "acacia stairs",
+            "acacia fence",
+            "acacia fence gate",
+            "acacia door",
+            "acacia trapdoor",
+            "acacia sign",
+            "acacia hanging sign",
+            "acacia button",
+            "acacia pressure plate",
+            "acacia boat",
+            "acacia chest boat"
+        ]
+    },
+    "chest-F0L2-D3": {
+        "label": "Jungle creations",
+        "names": [
+            "jungle stairs",
+            "jungle fence",
+            "jungle fence gate",
+            "jungle door",
+            "jungle trapdoor",
+            "jungle sign",
+            "jungle hanging sign",
+            "jungle button",
+            "jungle pressure plate",
+            "jungle boat",
+            "jungle chest boat"
+        ]
+    },
+    "chest-F0L3-U1": {
+        "label": "Birch logs & wood",
+        "names": [
+            "birch log",
+            "stripped birch log",
+            "birch wood",
+            "stripped birch wood"
+        ]
+    },
+    "chest-F0L3-U2": {
+        "label": "Spruce logs & wood",
+        "names": [
+            "spruce log",
+            "stripped spruce log",
+            "spruce wood",
+            "stripped spruce wood"
+        ]
+    },
+    "chest-F0L3-U3": {
+        "label": "Oak logs & wood",
+        "names": [
+            "oak log",
+            "stripped oak log",
+            "oak wood",
+            "stripped oak wood"
+        ]
+    },
+    "chest-F0L3-M1": {
+        "label": "Birch planks & slabs",
+        "names": [
+            "birch planks",
+            "birch slab"
+        ]
+    },
+    "chest-F0L3-M2": {
+        "label": "Spruce planks & slabs",
+        "names": [
+            "spruce planks",
+            "spruce slab"
+        ]
+    },
+    "chest-F0L3-M3": {
+        "label": "Oak planks & slabs",
+        "names": [
+            "oak planks",
+            "oak slab"
+        ]
+    },
+    "chest-F0L3-D1": {
+        "label": "Birch creations",
+        "names": [
+            "birch stairs",
+            "birch fence",
+            "birch fence gate",
+            "birch door",
+            "birch trapdoor",
+            "birch sign",
+            "birch hanging sign",
+            "birch button",
+            "birch pressure plate",
+            "birch boat",
+            "birch chest boat"
+        ]
+    },
+    "chest-F0L3-D2": {
+        "label": "Spruce creations",
+        "names": [
+            "spruce stairs",
+            "spruce fence",
+            "spruce fence gate",
+            "spruce door",
+            "spruce trapdoor",
+            "spruce sign",
+            "spruce hanging sign",
+            "spruce button",
+            "spruce pressure plate",
+            "spruce boat",
+            "spruce chest boat"
+        ]
+    },
+    "chest-F0L3-D3": {
+        "label": "Oak creations",
+        "names": [
+            "oak stairs",
+            "oak fence",
+            "oak fence gate",
+            "oak door",
+            "oak trapdoor",
+            "oak sign",
+            "oak hanging sign",
+            "oak button",
+            "oak pressure plate",
+            "oak boat",
+            "oak chest boat"
+        ]
+    },
+    "chest-F1L3-U1": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-U2": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-U3": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-M1": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-M2": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-M3": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-D1": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-D2": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L3-D3": {
+        "label": "Cobblestone",
+        "names": [
+            "cobblestone"
+        ]
+    },
+    "chest-F1L2-U1": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-U2": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-U3": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-M1": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-M2": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-M3": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-D1": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-D2": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L2-D3": {
+        "label": "Sand",
+        "names": [
+            "sand"
+        ]
+    },
+    "chest-F1L1-U1": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-U2": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-U3": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-M1": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-M2": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-M3": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-D1": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-D2": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1L1-D3": {
+        "label": "Dirt",
+        "names": [
+            "dirt"
+        ]
+    },
+    "chest-F1T1-U1": {
+        "label": "Stone",
+        "names": [
+            "stone"
+        ]
+    },
+    "chest-F1T1-U2": {
+        "label": "Stone",
+        "names": [
+            "stone"
+        ]
+    },
+    "chest-F1T1-U3": {
+        "label": "Smooth stone",
+        "names": [
+            "smooth stone"
+        ]
+    },
+    "chest-F1T1-M1": {
+        "label": "Stone bricks",
+        "names": [
+            "stone bricks",
+            "cracked stone bricks",
+            "chiseled stone bricks"
+        ]
+    },
+    "chest-F1T1-M2": {
+        "label": "Mossy stone bricks",
+        "names": [
+            "mossy stone bricks"
+        ]
+    },
+    "chest-F1T1-M3": {
+        "label": "Smooth stone slab",
+        "names": [
+            "smooth stone slab"
+        ]
+    },
+    "chest-F1T1-D1": {
+        "label": "Stone stairs & slabs",
+        "names": [
+            "stone stairs",
+            "stone slab"
+        ]
+    },
+    "chest-F1T1-D2": {
+        "label": "Mossy stone brick stairs",
+        "names": [
+            "mossy stone brick stairs",
+            "mossy stone brick slab",
+            "mossy stone brick wall"
+        ]
+    },
+    "chest-F1T1-D3": {
+        "label": "Stone brick stairs",
+        "names": [
+            "stone brick stairs",
+            "stone brick slab",
+            "stone brick wall"
+        ]
+    },
+    "chest-F1T2-U1": {
+        "label": "Red sand",
+        "names": [
+            "red sand"
+        ]
+    },
+    "chest-F1T2-U2": {
+        "label": "Gravel",
+        "names": [
+            "gravel"
+        ]
+    },
+    "chest-F1T2-U3": {
+        "label": "Mossy cobblestone",
+        "names": [
+            "mossy cobblestone"
+        ]
+    },
+    "chest-F1T2-M1": {
+        "label": "Red sand",
+        "names": [
+            "red sand"
+        ]
+    },
+    "chest-F1T2-M2": {
+        "label": "Gravel",
+        "names": [
+            "gravel"
+        ]
+    },
+    "chest-F1T2-M3": {
+        "label": "Cobblestone stairs",
+        "names": [
+            "cobblestone stairs",
+            "cobblestone slab",
+            "cobblestone wall"
+        ]
+    },
+    "chest-F1T2-D1": {
+        "label": "Red sand",
+        "names": [
+            "red sand"
+        ]
+    },
+    "chest-F1T2-D2": {
+        "label": "Gravel",
+        "names": [
+            "gravel"
+        ]
+    },
+    "chest-F1T2-D3": {
+        "label": "Mossy cobblestone stairs",
+        "names": [
+            "mossy cobblestone stairs",
+            "mossy cobblestone slab",
+            "mossy cobblestone wall"
+        ]
+    },
+    "chest-F1T3-U1": {
+        "label": "Grass block",
+        "names": [
+            "grass block"
+        ]
+    },
+    "chest-F1T3-U2": {
+        "label": "Coarse dirt",
+        "names": [
+            "coarse dirt"
+        ]
+    },
+    "chest-F1T3-U3": {
+        "label": "Rooted dirt",
+        "names": [
+            "rooted dirt"
+        ]
+    },
+    "chest-F1T3-M1": {
+        "label": "Podzol",
+        "names": [
+            "podzol"
+        ]
+    },
+    "chest-F1T3-M2": {
+        "label": "Mycelium",
+        "names": [
+            "mycelium"
+        ]
+    },
+    "chest-F1T3-M3": {
+        "label": "Snow block",
+        "names": [
+            "snow block",
+            "snowball",
+            "snow"
+        ]
+    },
+    "chest-F1T3-D1": {
+        "label": "Ice",
+        "names": [
+            "ice"
+        ]
+    },
+    "chest-F1T3-D2": {
+        "label": "Packed ice",
+        "names": [
+            "packed ice"
+        ]
+    },
+    "chest-F1T3-D3": {
+        "label": "Blue ice",
+        "names": [
+            "blue ice"
+        ]
+    },
+    "chest-F1R1-U1": {
+        "label": "Sandstone",
+        "names": [
+            "sandstone"
+        ]
+    },
+    "chest-F1R1-U2": {
+        "label": "Red sandstone",
+        "names": [
+            "red sandstone"
+        ]
+    },
+    "chest-F1R1-U3": {
+        "label": "Resin bricks",
+        "names": [
+            "resin bricks"
+        ]
+    },
+    "chest-F1R1-M1": {
+        "label": "Smooth sandstone",
+        "names": [
+            "smooth sandstone",
+            "cut sandstone",
+            "chiseled sandstone"
+        ]
+    },
+    "chest-F1R1-M2": {
+        "label": "Smooth red sandstone",
+        "names": [
+            "smooth red sandstone",
+            "cut red sandstone",
+            "chiseled red sandstone"
+        ]
+    },
+    "chest-F1R1-M3": {
+        "label": "Resin block",
+        "names": [
+            "resin block",
+            "chiseled resin bricks",
+            "resin clump",
+            "resin brick"
+        ]
+    },
+    "chest-F1R1-D1": {
+        "label": "Sandstone stairs",
+        "names": [
+            "sandstone stairs",
+            "sandstone slab",
+            "sandstone wall",
+            "smooth sandstone stairs",
+            "smooth sandstone slab",
+            "cut sandstone slab"
+        ]
+    },
+    "chest-F1R1-D2": {
+        "label": "Red sandstone stairs",
+        "names": [
+            "red sandstone stairs",
+            "red sandstone slab",
+            "red sandstone wall",
+            "smooth red sandstone stairs",
+            "smooth red sandstone slab",
+            "cut red sandstone slab"
+        ]
+    },
+    "chest-F1R1-D3": {
+        "label": "Resin brick stairs",
+        "names": [
+            "resin brick stairs",
+            "resin brick slab",
+            "resin brick wall"
+        ]
+    },
+    "chest-F1R2-U1": {
+        "label": "Granite",
+        "names": [
+            "granite"
+        ]
+    },
+    "chest-F1R2-U2": {
+        "label": "Diorite",
+        "names": [
+            "diorite"
+        ]
+    },
+    "chest-F1R2-U3": {
+        "label": "Andesite",
+        "names": [
+            "andesite"
+        ]
+    },
+    "chest-F1R2-M1": {
+        "label": "Polished granite",
+        "names": [
+            "polished granite"
+        ]
+    },
+    "chest-F1R2-M2": {
+        "label": "Polished diorite",
+        "names": [
+            "polished diorite"
+        ]
+    },
+    "chest-F1R2-M3": {
+        "label": "Polished andesite",
+        "names": [
+            "polished andesite"
+        ]
+    },
+    "chest-F1R2-D1": {
+        "label": "Granite stairs",
+        "names": [
+            "granite stairs",
+            "granite slab",
+            "granite wall",
+            "polished granite stairs",
+            "polished granite slab"
+        ]
+    },
+    "chest-F1R2-D2": {
+        "label": "Diorite stairs",
+        "names": [
+            "diorite stairs",
+            "diorite slab",
+            "diorite wall",
+            "polished diorite stairs",
+            "polished diorite slab"
+        ]
+    },
+    "chest-F1R2-D3": {
+        "label": "Andesite stairs",
+        "names": [
+            "andesite stairs",
+            "andesite slab",
+            "andesite wall",
+            "polished andesite stairs",
+            "polished andesite slab"
+        ]
+    },
+    "chest-F1R3-U1": {
+        "label": "Deepslate",
+        "names": [
+            "deepslate"
+        ]
+    },
+    "chest-F1R3-U2": {
+        "label": "Cobbled deepslate",
+        "names": [
+            "cobbled deepslate"
+        ]
+    },
+    "chest-F1R3-U3": {
+        "label": "Polished deepslate",
+        "names": [
+            "polished deepslate"
+        ]
+    },
+    "chest-F1R3-M1": {
+        "label": "Deepslate bricks",
+        "names": [
+            "deepslate bricks"
+        ]
+    },
+    "chest-F1R3-M2": {
+        "label": "Deepslate tiles",
+        "names": [
+            "deepslate tiles"
+        ]
+    },
+    "chest-F1R3-M3": {
+        "label": "Chiseled deepslate",
+        "names": [
+            "chiseled deepslate",
+            "cracked deepslate bricks",
+            "cracked deepslate tiles"
+        ]
+    },
+    "chest-F1R3-D1": {
+        "label": "Cobbled deepslate stairs",
+        "names": [
+            "cobbled deepslate stairs",
+            "cobbled deepslate slab",
+            "cobbled deepslate wall"
+        ]
+    },
+    "chest-F1R3-D2": {
+        "label": "Polished deepslate stairs",
+        "names": [
+            "polished deepslate stairs",
+            "polished deepslate slab",
+            "polished deepslate wall"
+        ]
+    },
+    "chest-F1R3-D3": {
+        "label": "Deepslate brick stairs",
+        "names": [
+            "deepslate brick stairs",
+            "deepslate brick slab",
+            "deepslate brick wall",
+            "deepslate tile stairs",
+            "deepslate tile slab",
+            "deepslate tile wall"
+        ]
+    },
+    "chest-F1B3-U1": {
+        "label": "Tuff",
+        "names": [
+            "tuff"
+        ]
+    },
+    "chest-F1B3-U2": {
+        "label": "Polished tuff",
+        "names": [
+            "polished tuff"
+        ]
+    },
+    "chest-F1B3-U3": {
+        "label": "Tuff bricks",
+        "names": [
+            "tuff bricks"
+        ]
+    },
+    "chest-F1B3-M1": {
+        "label": "Tuff",
+        "names": [
+            "tuff",
+            "chiseled tuff"
+        ]
+    },
+    "chest-F1B3-M2": {
+        "label": "Polished tuff",
+        "names": [
+            "polished tuff"
+        ]
+    },
+    "chest-F1B3-M3": {
+        "label": "Tuff bricks",
+        "names": [
+            "tuff bricks"
+        ]
+    },
+    "chest-F1B3-D1": {
+        "label": "Tuff stairs",
+        "names": [
+            "tuff stairs",
+            "tuff slab",
+            "tuff wall"
+        ]
+    },
+    "chest-F1B3-D2": {
+        "label": "Polished tuff stairs",
+        "names": [
+            "polished tuff stairs",
+            "polished tuff slab",
+            "polished tuff wall"
+        ]
+    },
+    "chest-F1B3-D3": {
+        "label": "Tuff brick stairs",
+        "names": [
+            "tuff brick stairs",
+            "tuff brick slab",
+            "tuff brick wall",
+            "chiseled tuff bricks"
+        ]
+    },
+    "chest-F1B2-U1": {
+        "label": "Clay",
+        "names": [
+            "clay"
+        ]
+    },
+    "chest-F1B2-U2": {
+        "label": "Mud",
+        "names": [
+            "mud"
+        ]
+    },
+    "chest-F1B2-U3": {
+        "label": "Packed mud",
+        "names": [
+            "packed mud"
+        ]
+    },
+    "chest-F1B2-M1": {
+        "label": "Bricks",
+        "names": [
+            "bricks"
+        ]
+    },
+    "chest-F1B2-M2": {
+        "label": "Mud bricks",
+        "names": [
+            "mud bricks"
+        ]
+    },
+    "chest-F1B2-M3": {
+        "label": "Packed mud",
+        "names": [
+            "packed mud"
+        ]
+    },
+    "chest-F1B2-D1": {
+        "label": "Brick stairs",
+        "names": [
+            "brick stairs",
+            "brick slab",
+            "brick wall"
+        ]
+    },
+    "chest-F1B2-D2": {
+        "label": "Mud brick stairs",
+        "names": [
+            "mud brick stairs",
+            "mud brick slab",
+            "mud brick wall"
+        ]
+    },
+    "chest-F1B2-D3": {
+        "label": "Clay ball",
+        "names": [
+            "clay ball",
+            "brick"
+        ]
+    },
+    "chest-F1B1-U1": {
+        "label": "Calcite",
+        "names": [
+            "calcite",
+            "amethyst block"
+        ]
+    },
+    "chest-F1B1-U2": {
+        "label": "Obsidian",
+        "names": [
+            "obsidian"
+        ]
+    },
+    "chest-F1B1-U3": {
+        "label": "Basalt",
+        "names": [
+            "basalt"
+        ]
+    },
+    "chest-F1B1-M1": {
+        "label": "Dripstone block",
+        "names": [
+            "dripstone block"
+        ]
+    },
+    "chest-F1B1-M2": {
+        "label": "Obsidian",
+        "names": [
+            "obsidian"
+        ]
+    },
+    "chest-F1B1-M3": {
+        "label": "Polished basalt",
+        "names": [
+            "polished basalt"
+        ]
+    },
+    "chest-F1B1-D1": {
+        "label": "Pointed dripstone",
+        "names": [
+            "pointed dripstone"
+        ]
+    },
+    "chest-F1B1-D2": {
+        "label": "Crying obsidian",
+        "names": [
+            "crying obsidian"
+        ]
+    },
+    "chest-F1B1-D3": {
+        "label": "Smooth basalt",
+        "names": [
+            "smooth basalt"
+        ]
+    },
+    "chest-F2B1-U1": {
+        "label": "Netherrack",
+        "names": [
+            "netherrack"
+        ]
+    },
+    "chest-F2B1-U2": {
+        "label": "Netherrack",
+        "names": [
+            "netherrack"
+        ]
+    },
+    "chest-F2B1-U3": {
+        "label": "Netherrack",
+        "names": [
+            "netherrack"
+        ]
+    },
+    "chest-F2B1-M1": {
+        "label": "Soul sand",
+        "names": [
+            "soul sand"
+        ]
+    },
+    "chest-F2B1-M2": {
+        "label": "Soul soil",
+        "names": [
+            "soul soil"
+        ]
+    },
+    "chest-F2B1-M3": {
+        "label": "Magma block",
+        "names": [
+            "magma block"
+        ]
+    },
+    "chest-F2B1-D1": {
+        "label": "Soul sand",
+        "names": [
+            "soul sand"
+        ]
+    },
+    "chest-F2B1-D2": {
+        "label": "Crimson nylium",
+        "names": [
+            "crimson nylium"
+        ]
+    },
+    "chest-F2B1-D3": {
+        "label": "Warped nylium",
+        "names": [
+            "warped nylium"
+        ]
+    },
+    "chest-F2B2-U1": {
+        "label": "Blackstone",
+        "names": [
+            "blackstone"
+        ]
+    },
+    "chest-F2B2-U2": {
+        "label": "Polished blackstone",
+        "names": [
+            "polished blackstone"
+        ]
+    },
+    "chest-F2B2-U3": {
+        "label": "Polished blackstone bricks",
+        "names": [
+            "polished blackstone bricks"
+        ]
+    },
+    "chest-F2B2-M1": {
+        "label": "Cracked polished blackstone bricks",
+        "names": [
+            "cracked polished blackstone bricks"
+        ]
+    },
+    "chest-F2B2-M2": {
+        "label": "Chiseled polished blackstone",
+        "names": [
+            "chiseled polished blackstone",
+            "polished blackstone button",
+            "polished blackstone pressure plate"
+        ]
+    },
+    "chest-F2B2-M3": {
+        "label": "Gilded blackstone",
+        "names": [
+            "gilded blackstone"
+        ]
+    },
+    "chest-F2B2-D1": {
+        "label": "Blackstone stairs",
+        "names": [
+            "blackstone stairs",
+            "blackstone slab",
+            "blackstone wall"
+        ]
+    },
+    "chest-F2B2-D2": {
+        "label": "Polished blackstone stairs",
+        "names": [
+            "polished blackstone stairs",
+            "polished blackstone slab",
+            "polished blackstone wall"
+        ]
+    },
+    "chest-F2B2-D3": {
+        "label": "Polished blackstone brick stairs",
+        "names": [
+            "polished blackstone brick stairs",
+            "polished blackstone brick slab",
+            "polished blackstone brick wall"
+        ]
+    },
+    "chest-F2B3-U1": {
+        "label": "Nether bricks",
+        "names": [
+            "nether bricks"
+        ]
+    },
+    "chest-F2B3-U2": {
+        "label": "Nether bricks",
+        "names": [
+            "nether bricks"
+        ]
+    },
+    "chest-F2B3-U3": {
+        "label": "Nether bricks",
+        "names": [
+            "nether bricks"
+        ]
+    },
+    "chest-F2B3-M1": {
+        "label": "Red nether bricks",
+        "names": [
+            "red nether bricks"
+        ]
+    },
+    "chest-F2B3-M2": {
+        "label": "Cracked nether bricks",
+        "names": [
+            "cracked nether bricks"
+        ]
+    },
+    "chest-F2B3-M3": {
+        "label": "Chiseled nether bricks",
+        "names": [
+            "chiseled nether bricks"
+        ]
+    },
+    "chest-F2B3-D1": {
+        "label": "Nether brick stairs",
+        "names": [
+            "nether brick stairs",
+            "nether brick slab",
+            "nether brick wall"
+        ]
+    },
+    "chest-F2B3-D2": {
+        "label": "Red nether brick stairs",
+        "names": [
+            "red nether brick stairs",
+            "red nether brick slab",
+            "red nether brick wall"
+        ]
+    },
+    "chest-F2B3-D3": {
+        "label": "Nether brick fence",
+        "names": [
+            "nether brick fence",
+            "nether brick"
+        ]
+    },
+    "chest-F2R3-U1": {
+        "label": "Block of quartz",
+        "names": [
+            "block of quartz"
+        ]
+    },
+    "chest-F2R3-U2": {
+        "label": "Block of quartz",
+        "names": [
+            "block of quartz"
+        ]
+    },
+    "chest-F2R3-U3": {
+        "label": "Block of quartz",
+        "names": [
+            "block of quartz"
+        ]
+    },
+    "chest-F2R3-M1": {
+        "label": "Smooth quartz",
+        "names": [
+            "smooth quartz"
+        ]
+    },
+    "chest-F2R3-M2": {
+        "label": "Quartz bricks",
+        "names": [
+            "quartz bricks"
+        ]
+    },
+    "chest-F2R3-M3": {
+        "label": "Quartz pillar",
+        "names": [
+            "quartz pillar"
+        ]
+    },
+    "chest-F2R3-D1": {
+        "label": "Chiseled quartz block",
+        "names": [
+            "chiseled quartz block"
+        ]
+    },
+    "chest-F2R3-D2": {
+        "label": "Quartz stairs & slabs",
+        "names": [
+            "quartz stairs",
+            "quartz slab"
+        ]
+    },
+    "chest-F2R3-D3": {
+        "label": "Smooth quartz stairs & slabs",
+        "names": [
+            "smooth quartz stairs",
+            "smooth quartz slab"
+        ]
+    },
+    "chest-F2R2-U1": {
+        "label": "Prismarine",
+        "names": [
+            "prismarine"
+        ]
+    },
+    "chest-F2R2-U2": {
+        "label": "Prismarine bricks",
+        "names": [
+            "prismarine bricks"
+        ]
+    },
+    "chest-F2R2-U3": {
+        "label": "Dark prismarine",
+        "names": [
+            "dark prismarine"
+        ]
+    },
+    "chest-F2R2-M1": {
+        "label": "Prismarine",
+        "names": [
+            "prismarine"
+        ]
+    },
+    "chest-F2R2-M2": {
+        "label": "Prismarine bricks",
+        "names": [
+            "prismarine bricks"
+        ]
+    },
+    "chest-F2R2-M3": {
+        "label": "Dark prismarine",
+        "names": [
+            "dark prismarine"
+        ]
+    },
+    "chest-F2R2-D1": {
+        "label": "Prismarine stairs",
+        "names": [
+            "prismarine stairs",
+            "prismarine slab",
+            "prismarine wall"
+        ]
+    },
+    "chest-F2R2-D2": {
+        "label": "Prismarine brick stairs & slabs",
+        "names": [
+            "prismarine brick stairs",
+            "prismarine brick slab"
+        ]
+    },
+    "chest-F2R2-D3": {
+        "label": "Dark prismarine stairs & slabs",
+        "names": [
+            "dark prismarine stairs",
+            "dark prismarine slab"
+        ]
+    },
+    "chest-F2R1-U1": {
+        "label": "Sculk",
+        "names": [
+            "sculk"
+        ]
+    },
+    "chest-F2R1-U2": {
+        "label": "Sculk",
+        "names": [
+            "sculk"
+        ]
+    },
+    "chest-F2R1-U3": {
+        "label": "Sculk",
+        "names": [
+            "sculk"
+        ]
+    },
+    "chest-F2R1-M1": {
+        "label": "Sculk",
+        "names": [
+            "sculk"
+        ]
+    },
+    "chest-F2R1-M2": {
+        "label": "Sculk",
+        "names": [
+            "sculk"
+        ]
+    },
+    "chest-F2R1-M3": {
+        "label": "Sculk",
+        "names": [
+            "sculk"
+        ]
+    },
+    "chest-F2R1-D1": {
+        "label": "Sculk vein",
+        "names": [
+            "sculk vein"
+        ]
+    },
+    "chest-F2R1-D2": {
+        "label": "Sculk vein",
+        "names": [
+            "sculk vein"
+        ]
+    },
+    "chest-F2R1-D3": {
+        "label": "Sculk catalyst",
+        "names": [
+            "sculk catalyst",
+            "sculk shrieker"
+        ]
+    },
+    "chest-F2T3-U1": {
+        "label": "Gray concrete",
+        "names": [
+            "gray concrete"
+        ]
+    },
+    "chest-F2T3-U2": {
+        "label": "Light gray concrete",
+        "names": [
+            "light gray concrete"
+        ]
+    },
+    "chest-F2T3-U3": {
+        "label": "White concrete",
+        "names": [
+            "white concrete"
+        ]
+    },
+    "chest-F2T3-M1": {
+        "label": "Gray concrete powder",
+        "names": [
+            "gray concrete powder"
+        ]
+    },
+    "chest-F2T3-M2": {
+        "label": "Light gray concrete powder",
+        "names": [
+            "light gray concrete powder"
+        ]
+    },
+    "chest-F2T3-M3": {
+        "label": "White concrete powder",
+        "names": [
+            "white concrete powder"
+        ]
+    },
+    "chest-F2T3-D1": {
+        "label": "Gray concrete stairs & slabs",
+        "names": [
+            "gray concrete stairs",
+            "gray concrete slab"
+        ]
+    },
+    "chest-F2T3-D2": {
+        "label": "Light gray concrete stairs & slabs",
+        "names": [
+            "light gray concrete stairs",
+            "light gray concrete slab"
+        ]
+    },
+    "chest-F2T3-D3": {
+        "label": "White concrete stairs & slabs",
+        "names": [
+            "white concrete stairs",
+            "white concrete slab"
+        ]
+    },
+    "chest-F2T2-U1": {
+        "label": "Red concrete",
+        "names": [
+            "red concrete"
+        ]
+    },
+    "chest-F2T2-U2": {
+        "label": "Brown concrete",
+        "names": [
+            "brown concrete"
+        ]
+    },
+    "chest-F2T2-U3": {
+        "label": "Black concrete",
+        "names": [
+            "black concrete"
+        ]
+    },
+    "chest-F2T2-M1": {
+        "label": "Red concrete powder",
+        "names": [
+            "red concrete powder"
+        ]
+    },
+    "chest-F2T2-M2": {
+        "label": "Brown concrete powder",
+        "names": [
+            "brown concrete powder"
+        ]
+    },
+    "chest-F2T2-M3": {
+        "label": "Black concrete powder",
+        "names": [
+            "black concrete powder"
+        ]
+    },
+    "chest-F2T2-D1": {
+        "label": "Red concrete stairs & slabs",
+        "names": [
+            "red concrete stairs",
+            "red concrete slab"
+        ]
+    },
+    "chest-F2T2-D2": {
+        "label": "Brown concrete stairs & slabs",
+        "names": [
+            "brown concrete stairs",
+            "brown concrete slab"
+        ]
+    },
+    "chest-F2T2-D3": {
+        "label": "Black concrete stairs & slabs",
+        "names": [
+            "black concrete stairs",
+            "black concrete slab"
+        ]
+    },
+    "chest-F2T1-U1": {
+        "label": "Lime concrete",
+        "names": [
+            "lime concrete"
+        ]
+    },
+    "chest-F2T1-U2": {
+        "label": "Yellow concrete",
+        "names": [
+            "yellow concrete"
+        ]
+    },
+    "chest-F2T1-U3": {
+        "label": "Orange concrete",
+        "names": [
+            "orange concrete"
+        ]
+    },
+    "chest-F2T1-M1": {
+        "label": "Lime concrete powder",
+        "names": [
+            "lime concrete powder"
+        ]
+    },
+    "chest-F2T1-M2": {
+        "label": "Yellow concrete powder",
+        "names": [
+            "yellow concrete powder"
+        ]
+    },
+    "chest-F2T1-M3": {
+        "label": "Orange concrete powder",
+        "names": [
+            "orange concrete powder"
+        ]
+    },
+    "chest-F2T1-D1": {
+        "label": "Lime concrete stairs & slabs",
+        "names": [
+            "lime concrete stairs",
+            "lime concrete slab"
+        ]
+    },
+    "chest-F2T1-D2": {
+        "label": "Yellow concrete stairs & slabs",
+        "names": [
+            "yellow concrete stairs",
+            "yellow concrete slab"
+        ]
+    },
+    "chest-F2T1-D3": {
+        "label": "Orange concrete stairs & slabs",
+        "names": [
+            "orange concrete stairs",
+            "orange concrete slab"
+        ]
+    },
+    "chest-F2L1-U1": {
+        "label": "Green concrete",
+        "names": [
+            "green concrete"
+        ]
+    },
+    "chest-F2L1-U2": {
+        "label": "Cyan concrete",
+        "names": [
+            "cyan concrete"
+        ]
+    },
+    "chest-F2L1-U3": {
+        "label": "Light blue concrete",
+        "names": [
+            "light blue concrete"
+        ]
+    },
+    "chest-F2L1-M1": {
+        "label": "Green concrete powder",
+        "names": [
+            "green concrete powder"
+        ]
+    },
+    "chest-F2L1-M2": {
+        "label": "Cyan concrete powder",
+        "names": [
+            "cyan concrete powder"
+        ]
+    },
+    "chest-F2L1-M3": {
+        "label": "Light blue concrete powder",
+        "names": [
+            "light blue concrete powder"
+        ]
+    },
+    "chest-F2L1-D1": {
+        "label": "Green concrete stairs & slabs",
+        "names": [
+            "green concrete stairs",
+            "green concrete slab"
+        ]
+    },
+    "chest-F2L1-D2": {
+        "label": "Cyan concrete stairs & slabs",
+        "names": [
+            "cyan concrete stairs",
+            "cyan concrete slab"
+        ]
+    },
+    "chest-F2L1-D3": {
+        "label": "Light blue concrete stairs & slabs",
+        "names": [
+            "light blue concrete stairs",
+            "light blue concrete slab"
+        ]
+    },
+    "chest-F2L2-U1": {
+        "label": "Blue concrete",
+        "names": [
+            "blue concrete"
+        ]
+    },
+    "chest-F2L2-U2": {
+        "label": "Purple concrete",
+        "names": [
+            "purple concrete"
+        ]
+    },
+    "chest-F2L2-U3": {
+        "label": "Magenta concrete",
+        "names": [
+            "magenta concrete"
+        ]
+    },
+    "chest-F2L2-M1": {
+        "label": "Blue concrete powder",
+        "names": [
+            "blue concrete powder"
+        ]
+    },
+    "chest-F2L2-M2": {
+        "label": "Purple concrete powder",
+        "names": [
+            "purple concrete powder"
+        ]
+    },
+    "chest-F2L2-M3": {
+        "label": "Magenta concrete powder",
+        "names": [
+            "magenta concrete powder"
+        ]
+    },
+    "chest-F2L2-D1": {
+        "label": "Blue concrete stairs & slabs",
+        "names": [
+            "blue concrete stairs",
+            "blue concrete slab"
+        ]
+    },
+    "chest-F2L2-D2": {
+        "label": "Purple concrete stairs & slabs",
+        "names": [
+            "purple concrete stairs",
+            "purple concrete slab"
+        ]
+    },
+    "chest-F2L2-D3": {
+        "label": "Magenta concrete stairs & slabs",
+        "names": [
+            "magenta concrete stairs",
+            "magenta concrete slab"
+        ]
+    },
+    "chest-F2L3-U1": {
+        "label": "Pink concrete",
+        "names": [
+            "pink concrete"
+        ]
+    },
+    "chest-F2L3-U2": {
+        "label": "Cinnabar",
+        "names": [
+            "cinnabar"
+        ]
+    },
+    "chest-F2L3-U3": {
+        "label": "Sulfur",
+        "names": [
+            "sulfur"
+        ]
+    },
+    "chest-F2L3-M1": {
+        "label": "Pink concrete powder",
+        "names": [
+            "pink concrete powder"
+        ]
+    },
+    "chest-F2L3-M2": {
+        "label": "Polished cinnabar",
+        "names": [
+            "polished cinnabar",
+            "cinnabar bricks",
+            "chiseled cinnabar"
+        ]
+    },
+    "chest-F2L3-M3": {
+        "label": "Polished sulfur",
+        "names": [
+            "polished sulfur",
+            "sulfur bricks",
+            "chiseled sulfur",
+            "potent sulfur",
+            "sulfur spike"
+        ]
+    },
+    "chest-F2L3-D1": {
+        "label": "Pink concrete stairs & slabs",
+        "names": [
+            "pink concrete stairs",
+            "pink concrete slab"
+        ]
+    },
+    "chest-F2L3-D2": {
+        "label": "Cinnabar stairs",
+        "names": [
+            "cinnabar stairs",
+            "cinnabar slab",
+            "cinnabar wall",
+            "polished cinnabar stairs",
+            "polished cinnabar slab",
+            "polished cinnabar wall",
+            "cinnabar brick stairs",
+            "cinnabar brick slab",
+            "cinnabar brick wall"
+        ]
+    },
+    "chest-F2L3-D3": {
+        "label": "Sulfur stairs",
+        "names": [
+            "sulfur stairs",
+            "sulfur slab",
+            "sulfur wall",
+            "polished sulfur stairs",
+            "polished sulfur slab",
+            "polished sulfur wall",
+            "sulfur brick stairs",
+            "sulfur brick slab",
+            "sulfur brick wall"
+        ]
+    },
+    "chest-F3L3-U1": {
+        "label": "Gray wool",
+        "names": [
+            "gray wool"
+        ]
+    },
+    "chest-F3L3-U2": {
+        "label": "Light gray wool",
+        "names": [
+            "light gray wool"
+        ]
+    },
+    "chest-F3L3-U3": {
+        "label": "White wool",
+        "names": [
+            "white wool"
+        ]
+    },
+    "chest-F3L3-M1": {
+        "label": "Gray wool stairs & slabs",
+        "names": [
+            "gray wool stairs",
+            "gray wool slab"
+        ]
+    },
+    "chest-F3L3-M2": {
+        "label": "Light gray wool stairs & slabs",
+        "names": [
+            "light gray wool stairs",
+            "light gray wool slab"
+        ]
+    },
+    "chest-F3L3-M3": {
+        "label": "White wool stairs & slabs",
+        "names": [
+            "white wool stairs",
+            "white wool slab"
+        ]
+    },
+    "chest-F3L3-D1": {
+        "label": "Gray carpet",
+        "names": [
+            "gray carpet",
+            "gray bed",
+            "gray cushion",
+            "gray banner",
+            "gray dye",
+            "gray candle",
+            "gray shulker box"
+        ]
+    },
+    "chest-F3L3-D2": {
+        "label": "Light gray carpet",
+        "names": [
+            "light gray carpet",
+            "light gray bed",
+            "light gray cushion",
+            "light gray banner",
+            "light gray dye",
+            "light gray candle",
+            "light gray shulker box"
+        ]
+    },
+    "chest-F3L3-D3": {
+        "label": "White carpet",
+        "names": [
+            "white carpet",
+            "white bed",
+            "white cushion",
+            "white banner",
+            "white dye",
+            "white candle",
+            "white shulker box"
+        ]
+    },
+    "chest-F3L2-U1": {
+        "label": "Red wool",
+        "names": [
+            "red wool"
+        ]
+    },
+    "chest-F3L2-U2": {
+        "label": "Brown wool",
+        "names": [
+            "brown wool"
+        ]
+    },
+    "chest-F3L2-U3": {
+        "label": "Black wool",
+        "names": [
+            "black wool"
+        ]
+    },
+    "chest-F3L2-M1": {
+        "label": "Red wool stairs & slabs",
+        "names": [
+            "red wool stairs",
+            "red wool slab"
+        ]
+    },
+    "chest-F3L2-M2": {
+        "label": "Brown wool stairs & slabs",
+        "names": [
+            "brown wool stairs",
+            "brown wool slab"
+        ]
+    },
+    "chest-F3L2-M3": {
+        "label": "Black wool stairs & slabs",
+        "names": [
+            "black wool stairs",
+            "black wool slab"
+        ]
+    },
+    "chest-F3L2-D1": {
+        "label": "Red carpet",
+        "names": [
+            "red carpet",
+            "red bed",
+            "red cushion",
+            "red banner",
+            "red dye",
+            "red candle",
+            "red shulker box"
+        ]
+    },
+    "chest-F3L2-D2": {
+        "label": "Brown carpet",
+        "names": [
+            "brown carpet",
+            "brown bed",
+            "brown cushion",
+            "brown banner",
+            "brown dye",
+            "brown candle",
+            "brown shulker box"
+        ]
+    },
+    "chest-F3L2-D3": {
+        "label": "Black carpet",
+        "names": [
+            "black carpet",
+            "black bed",
+            "black cushion",
+            "black banner",
+            "black dye",
+            "black candle",
+            "black shulker box"
+        ]
+    },
+    "chest-F3L1-U1": {
+        "label": "Lime wool",
+        "names": [
+            "lime wool"
+        ]
+    },
+    "chest-F3L1-U2": {
+        "label": "Yellow wool",
+        "names": [
+            "yellow wool"
+        ]
+    },
+    "chest-F3L1-U3": {
+        "label": "Orange wool",
+        "names": [
+            "orange wool"
+        ]
+    },
+    "chest-F3L1-M1": {
+        "label": "Lime wool stairs & slabs",
+        "names": [
+            "lime wool stairs",
+            "lime wool slab"
+        ]
+    },
+    "chest-F3L1-M2": {
+        "label": "Yellow wool stairs & slabs",
+        "names": [
+            "yellow wool stairs",
+            "yellow wool slab"
+        ]
+    },
+    "chest-F3L1-M3": {
+        "label": "Orange wool stairs & slabs",
+        "names": [
+            "orange wool stairs",
+            "orange wool slab"
+        ]
+    },
+    "chest-F3L1-D1": {
+        "label": "Lime carpet",
+        "names": [
+            "lime carpet",
+            "lime bed",
+            "lime cushion",
+            "lime banner",
+            "lime dye",
+            "lime candle",
+            "lime shulker box"
+        ]
+    },
+    "chest-F3L1-D2": {
+        "label": "Yellow carpet",
+        "names": [
+            "yellow carpet",
+            "yellow bed",
+            "yellow cushion",
+            "yellow banner",
+            "yellow dye",
+            "yellow candle",
+            "yellow shulker box"
+        ]
+    },
+    "chest-F3L1-D3": {
+        "label": "Orange carpet",
+        "names": [
+            "orange carpet",
+            "orange bed",
+            "orange cushion",
+            "orange banner",
+            "orange dye",
+            "orange candle",
+            "orange shulker box"
+        ]
+    },
+    "chest-F3T1-U1": {
+        "label": "Green wool",
+        "names": [
+            "green wool"
+        ]
+    },
+    "chest-F3T1-U2": {
+        "label": "Cyan wool",
+        "names": [
+            "cyan wool"
+        ]
+    },
+    "chest-F3T1-U3": {
+        "label": "Light blue wool",
+        "names": [
+            "light blue wool"
+        ]
+    },
+    "chest-F3T1-M1": {
+        "label": "Green wool stairs & slabs",
+        "names": [
+            "green wool stairs",
+            "green wool slab"
+        ]
+    },
+    "chest-F3T1-M2": {
+        "label": "Cyan wool stairs & slabs",
+        "names": [
+            "cyan wool stairs",
+            "cyan wool slab"
+        ]
+    },
+    "chest-F3T1-M3": {
+        "label": "Light blue wool stairs & slabs",
+        "names": [
+            "light blue wool stairs",
+            "light blue wool slab"
+        ]
+    },
+    "chest-F3T1-D1": {
+        "label": "Green carpet",
+        "names": [
+            "green carpet",
+            "green bed",
+            "green cushion",
+            "green banner",
+            "green dye",
+            "green candle",
+            "green shulker box"
+        ]
+    },
+    "chest-F3T1-D2": {
+        "label": "Cyan carpet",
+        "names": [
+            "cyan carpet",
+            "cyan bed",
+            "cyan cushion",
+            "cyan banner",
+            "cyan dye",
+            "cyan candle",
+            "cyan shulker box"
+        ]
+    },
+    "chest-F3T1-D3": {
+        "label": "Light blue carpet",
+        "names": [
+            "light blue carpet",
+            "light blue bed",
+            "light blue cushion",
+            "light blue banner",
+            "light blue dye",
+            "light blue candle",
+            "light blue shulker box"
+        ]
+    },
+    "chest-F3T2-U1": {
+        "label": "Blue wool",
+        "names": [
+            "blue wool"
+        ]
+    },
+    "chest-F3T2-U2": {
+        "label": "Purple wool",
+        "names": [
+            "purple wool"
+        ]
+    },
+    "chest-F3T2-U3": {
+        "label": "Magenta wool",
+        "names": [
+            "magenta wool"
+        ]
+    },
+    "chest-F3T2-M1": {
+        "label": "Blue wool stairs & slabs",
+        "names": [
+            "blue wool stairs",
+            "blue wool slab"
+        ]
+    },
+    "chest-F3T2-M2": {
+        "label": "Purple wool stairs & slabs",
+        "names": [
+            "purple wool stairs",
+            "purple wool slab"
+        ]
+    },
+    "chest-F3T2-M3": {
+        "label": "Magenta wool stairs & slabs",
+        "names": [
+            "magenta wool stairs",
+            "magenta wool slab"
+        ]
+    },
+    "chest-F3T2-D1": {
+        "label": "Blue carpet",
+        "names": [
+            "blue carpet",
+            "blue bed",
+            "blue cushion",
+            "blue banner",
+            "blue dye",
+            "blue candle",
+            "blue shulker box"
+        ]
+    },
+    "chest-F3T2-D2": {
+        "label": "Purple carpet",
+        "names": [
+            "purple carpet",
+            "purple bed",
+            "purple cushion",
+            "purple banner",
+            "purple dye",
+            "purple candle",
+            "purple shulker box"
+        ]
+    },
+    "chest-F3T2-D3": {
+        "label": "Magenta carpet",
+        "names": [
+            "magenta carpet",
+            "magenta bed",
+            "magenta cushion",
+            "magenta banner",
+            "magenta dye",
+            "magenta candle",
+            "magenta shulker box"
+        ]
+    },
+    "chest-F3T3-U1": {
+        "label": "Pink wool",
+        "names": [
+            "pink wool"
+        ]
+    },
+    "chest-F3T3-U2": {
+        "label": "Glass",
+        "names": [
+            "glass"
+        ]
+    },
+    "chest-F3T3-U3": {
+        "label": "Terracotta",
+        "names": [
+            "terracotta"
+        ]
+    },
+    "chest-F3T3-M1": {
+        "label": "Pink wool stairs & slabs",
+        "names": [
+            "pink wool stairs",
+            "pink wool slab"
+        ]
+    },
+    "chest-F3T3-M2": {
+        "label": "Glass pane",
+        "names": [
+            "glass pane"
+        ]
+    },
+    "chest-F3T3-M3": {
+        "label": "Terracotta",
+        "names": [
+            "terracotta"
+        ]
+    },
+    "chest-F3T3-D1": {
+        "label": "Pink carpet",
+        "names": [
+            "pink carpet",
+            "pink bed",
+            "pink cushion",
+            "pink banner",
+            "pink dye",
+            "pink candle",
+            "pink shulker box"
+        ]
+    },
+    "chest-F3T3-D2": {
+        "label": "Tinted glass",
+        "names": [
+            "tinted glass"
+        ]
+    },
+    "chest-F3T3-D3": {
+        "label": "Terracotta",
+        "names": [
+            "terracotta"
+        ]
+    },
+    "chest-F3R1-U1": {
+        "label": "White stained glass",
+        "names": [
+            "white stained glass",
+            "white stained glass pane"
+        ]
+    },
+    "chest-F3R1-U2": {
+        "label": "Light gray stained glass",
+        "names": [
+            "light gray stained glass",
+            "light gray stained glass pane"
+        ]
+    },
+    "chest-F3R1-U3": {
+        "label": "Gray stained glass",
+        "names": [
+            "gray stained glass",
+            "gray stained glass pane"
+        ]
+    },
+    "chest-F3R1-M1": {
+        "label": "White terracotta",
+        "names": [
+            "white terracotta"
+        ]
+    },
+    "chest-F3R1-M2": {
+        "label": "Light gray terracotta",
+        "names": [
+            "light gray terracotta"
+        ]
+    },
+    "chest-F3R1-M3": {
+        "label": "Gray terracotta",
+        "names": [
+            "gray terracotta"
+        ]
+    },
+    "chest-F3R1-D1": {
+        "label": "White glazed terracotta",
+        "names": [
+            "white glazed terracotta"
+        ]
+    },
+    "chest-F3R1-D2": {
+        "label": "Light gray glazed terracotta",
+        "names": [
+            "light gray glazed terracotta"
+        ]
+    },
+    "chest-F3R1-D3": {
+        "label": "Gray glazed terracotta",
+        "names": [
+            "gray glazed terracotta"
+        ]
+    },
+    "chest-F3R2-U1": {
+        "label": "Black stained glass",
+        "names": [
+            "black stained glass",
+            "black stained glass pane"
+        ]
+    },
+    "chest-F3R2-U2": {
+        "label": "Brown stained glass",
+        "names": [
+            "brown stained glass",
+            "brown stained glass pane"
+        ]
+    },
+    "chest-F3R2-U3": {
+        "label": "Red stained glass",
+        "names": [
+            "red stained glass",
+            "red stained glass pane"
+        ]
+    },
+    "chest-F3R2-M1": {
+        "label": "Black terracotta",
+        "names": [
+            "black terracotta"
+        ]
+    },
+    "chest-F3R2-M2": {
+        "label": "Brown terracotta",
+        "names": [
+            "brown terracotta"
+        ]
+    },
+    "chest-F3R2-M3": {
+        "label": "Red terracotta",
+        "names": [
+            "red terracotta"
+        ]
+    },
+    "chest-F3R2-D1": {
+        "label": "Black glazed terracotta",
+        "names": [
+            "black glazed terracotta"
+        ]
+    },
+    "chest-F3R2-D2": {
+        "label": "Brown glazed terracotta",
+        "names": [
+            "brown glazed terracotta"
+        ]
+    },
+    "chest-F3R2-D3": {
+        "label": "Red glazed terracotta",
+        "names": [
+            "red glazed terracotta"
+        ]
+    },
+    "chest-F3R3-U1": {
+        "label": "Orange stained glass",
+        "names": [
+            "orange stained glass",
+            "orange stained glass pane"
+        ]
+    },
+    "chest-F3R3-U2": {
+        "label": "Yellow stained glass",
+        "names": [
+            "yellow stained glass",
+            "yellow stained glass pane"
+        ]
+    },
+    "chest-F3R3-U3": {
+        "label": "Lime stained glass",
+        "names": [
+            "lime stained glass",
+            "lime stained glass pane"
+        ]
+    },
+    "chest-F3R3-M1": {
+        "label": "Orange terracotta",
+        "names": [
+            "orange terracotta"
+        ]
+    },
+    "chest-F3R3-M2": {
+        "label": "Yellow terracotta",
+        "names": [
+            "yellow terracotta"
+        ]
+    },
+    "chest-F3R3-M3": {
+        "label": "Lime terracotta",
+        "names": [
+            "lime terracotta"
+        ]
+    },
+    "chest-F3R3-D1": {
+        "label": "Orange glazed terracotta",
+        "names": [
+            "orange glazed terracotta"
+        ]
+    },
+    "chest-F3R3-D2": {
+        "label": "Yellow glazed terracotta",
+        "names": [
+            "yellow glazed terracotta"
+        ]
+    },
+    "chest-F3R3-D3": {
+        "label": "Lime glazed terracotta",
+        "names": [
+            "lime glazed terracotta"
+        ]
+    },
+    "chest-F3B3-U1": {
+        "label": "Light blue stained glass",
+        "names": [
+            "light blue stained glass",
+            "light blue stained glass pane"
+        ]
+    },
+    "chest-F3B3-U2": {
+        "label": "Cyan stained glass",
+        "names": [
+            "cyan stained glass",
+            "cyan stained glass pane"
+        ]
+    },
+    "chest-F3B3-U3": {
+        "label": "Green stained glass",
+        "names": [
+            "green stained glass",
+            "green stained glass pane"
+        ]
+    },
+    "chest-F3B3-M1": {
+        "label": "Light blue terracotta",
+        "names": [
+            "light blue terracotta"
+        ]
+    },
+    "chest-F3B3-M2": {
+        "label": "Cyan terracotta",
+        "names": [
+            "cyan terracotta"
+        ]
+    },
+    "chest-F3B3-M3": {
+        "label": "Green terracotta",
+        "names": [
+            "green terracotta"
+        ]
+    },
+    "chest-F3B3-D1": {
+        "label": "Light blue glazed terracotta",
+        "names": [
+            "light blue glazed terracotta"
+        ]
+    },
+    "chest-F3B3-D2": {
+        "label": "Cyan glazed terracotta",
+        "names": [
+            "cyan glazed terracotta"
+        ]
+    },
+    "chest-F3B3-D3": {
+        "label": "Green glazed terracotta",
+        "names": [
+            "green glazed terracotta"
+        ]
+    },
+    "chest-F3B2-U1": {
+        "label": "Magenta stained glass",
+        "names": [
+            "magenta stained glass",
+            "magenta stained glass pane"
+        ]
+    },
+    "chest-F3B2-U2": {
+        "label": "Purple stained glass",
+        "names": [
+            "purple stained glass",
+            "purple stained glass pane"
+        ]
+    },
+    "chest-F3B2-U3": {
+        "label": "Blue stained glass",
+        "names": [
+            "blue stained glass",
+            "blue stained glass pane"
+        ]
+    },
+    "chest-F3B2-M1": {
+        "label": "Magenta terracotta",
+        "names": [
+            "magenta terracotta"
+        ]
+    },
+    "chest-F3B2-M2": {
+        "label": "Purple terracotta",
+        "names": [
+            "purple terracotta"
+        ]
+    },
+    "chest-F3B2-M3": {
+        "label": "Blue terracotta",
+        "names": [
+            "blue terracotta"
+        ]
+    },
+    "chest-F3B2-D1": {
+        "label": "Magenta glazed terracotta",
+        "names": [
+            "magenta glazed terracotta"
+        ]
+    },
+    "chest-F3B2-D2": {
+        "label": "Purple glazed terracotta",
+        "names": [
+            "purple glazed terracotta"
+        ]
+    },
+    "chest-F3B2-D3": {
+        "label": "Blue glazed terracotta",
+        "names": [
+            "blue glazed terracotta"
+        ]
+    },
+    "chest-F3B1-U1": {
+        "label": "Ochre froglight",
+        "names": [
+            "ochre froglight"
+        ]
+    },
+    "chest-F3B1-U2": {
+        "label": "Shroomlight",
+        "names": [
+            "shroomlight"
+        ]
+    },
+    "chest-F3B1-U3": {
+        "label": "Pink stained glass",
+        "names": [
+            "pink stained glass",
+            "pink stained glass pane"
+        ]
+    },
+    "chest-F3B1-M1": {
+        "label": "Pearlescent froglight",
+        "names": [
+            "pearlescent froglight"
+        ]
+    },
+    "chest-F3B1-M2": {
+        "label": "Sea lantern",
+        "names": [
+            "sea lantern"
+        ]
+    },
+    "chest-F3B1-M3": {
+        "label": "Pink terracotta",
+        "names": [
+            "pink terracotta"
+        ]
+    },
+    "chest-F3B1-D1": {
+        "label": "Verdant froglight",
+        "names": [
+            "verdant froglight"
+        ]
+    },
+    "chest-F3B1-D2": {
+        "label": "Glowstone",
+        "names": [
+            "glowstone"
+        ]
+    },
+    "chest-F3B1-D3": {
+        "label": "Pink glazed terracotta",
+        "names": [
+            "pink glazed terracotta"
+        ]
+    },
+    "chest-F4B1-U1": {
+        "label": "Wheat",
+        "names": [
+            "wheat"
+        ]
+    },
+    "chest-F4B1-U2": {
+        "label": "Wheat seeds",
+        "names": [
+            "wheat seeds"
+        ]
+    },
+    "chest-F4B1-U3": {
+        "label": "Hay bale",
+        "names": [
+            "hay bale"
+        ]
+    },
+    "chest-F4B1-M1": {
+        "label": "Wheat",
+        "names": [
+            "wheat"
+        ]
+    },
+    "chest-F4B1-M2": {
+        "label": "Wheat seeds",
+        "names": [
+            "wheat seeds"
+        ]
+    },
+    "chest-F4B1-M3": {
+        "label": "Hay bale",
+        "names": [
+            "hay bale"
+        ]
+    },
+    "chest-F4B1-D1": {
+        "label": "Wheat",
+        "names": [
+            "wheat"
+        ]
+    },
+    "chest-F4B1-D2": {
+        "label": "Wheat seeds",
+        "names": [
+            "wheat seeds"
+        ]
+    },
+    "chest-F4B1-D3": {
+        "label": "Hay bale",
+        "names": [
+            "hay bale",
+            "straw bed"
+        ]
+    },
+    "chest-F4B2-U1": {
+        "label": "Carrot",
+        "names": [
+            "carrot"
+        ]
+    },
+    "chest-F4B2-U2": {
+        "label": "Potato",
+        "names": [
+            "potato"
+        ]
+    },
+    "chest-F4B2-U3": {
+        "label": "Beetroot",
+        "names": [
+            "beetroot"
+        ]
+    },
+    "chest-F4B2-M1": {
+        "label": "Carrot",
+        "names": [
+            "carrot"
+        ]
+    },
+    "chest-F4B2-M2": {
+        "label": "Potato",
+        "names": [
+            "potato"
+        ]
+    },
+    "chest-F4B2-M3": {
+        "label": "Beetroot",
+        "names": [
+            "beetroot"
+        ]
+    },
+    "chest-F4B2-D1": {
+        "label": "Carrot",
+        "names": [
+            "carrot"
+        ]
+    },
+    "chest-F4B2-D2": {
+        "label": "Potato",
+        "names": [
+            "potato",
+            "poisonous potato"
+        ]
+    },
+    "chest-F4B2-D3": {
+        "label": "Beetroot seeds",
+        "names": [
+            "beetroot seeds"
+        ]
+    },
+    "chest-F4B3-U1": {
+        "label": "Pumpkin",
+        "names": [
+            "pumpkin"
+        ]
+    },
+    "chest-F4B3-U2": {
+        "label": "Melon",
+        "names": [
+            "melon"
+        ]
+    },
+    "chest-F4B3-U3": {
+        "label": "Melon slice",
+        "names": [
+            "melon slice"
+        ]
+    },
+    "chest-F4B3-M1": {
+        "label": "Pumpkin",
+        "names": [
+            "pumpkin"
+        ]
+    },
+    "chest-F4B3-M2": {
+        "label": "Melon",
+        "names": [
+            "melon"
+        ]
+    },
+    "chest-F4B3-M3": {
+        "label": "Melon slice",
+        "names": [
+            "melon slice"
+        ]
+    },
+    "chest-F4B3-D1": {
+        "label": "Pumpkin",
+        "names": [
+            "pumpkin"
+        ]
+    },
+    "chest-F4B3-D2": {
+        "label": "Carved pumpkin",
+        "names": [
+            "carved pumpkin",
+            "jack o'lantern",
+            "pumpkin seeds"
+        ]
+    },
+    "chest-F4B3-D3": {
+        "label": "Melon seeds",
+        "names": [
+            "melon seeds",
+            "melon slice"
+        ]
+    },
+    "chest-F4R3-U1": {
+        "label": "Steak",
+        "names": [
+            "steak"
+        ]
+    },
+    "chest-F4R3-U2": {
+        "label": "Cooked porkchop",
+        "names": [
+            "cooked porkchop"
+        ]
+    },
+    "chest-F4R3-U3": {
+        "label": "Cooked chicken",
+        "names": [
+            "cooked chicken"
+        ]
+    },
+    "chest-F4R3-M1": {
+        "label": "Cooked mutton",
+        "names": [
+            "cooked mutton",
+            "raw mutton"
+        ]
+    },
+    "chest-F4R3-M2": {
+        "label": "Cooked cod",
+        "names": [
+            "cooked cod",
+            "cooked salmon"
+        ]
+    },
+    "chest-F4R3-M3": {
+        "label": "Bread",
+        "names": [
+            "bread",
+            "baked potato"
+        ]
+    },
+    "chest-F4R3-D1": {
+        "label": "Pumpkin pie",
+        "names": [
+            "pumpkin pie",
+            "cookie"
+        ]
+    },
+    "chest-F4R3-D2": {
+        "label": "Cooked rabbit",
+        "names": [
+            "cooked rabbit",
+            "raw rabbit"
+        ]
+    },
+    "chest-F4R3-D3": {
+        "label": "Mushroom stew",
+        "names": [
+            "mushroom stew",
+            "rabbit stew",
+            "suspicious stew",
+            "beetroot soup",
+            "cake"
+        ]
+    },
+    "chest-F4R2-U1": {
+        "label": "Raw beef",
+        "names": [
+            "raw beef"
+        ]
+    },
+    "chest-F4R2-U2": {
+        "label": "Raw porkchop",
+        "names": [
+            "raw porkchop"
+        ]
+    },
+    "chest-F4R2-U3": {
+        "label": "Raw chicken",
+        "names": [
+            "raw chicken"
+        ]
+    },
+    "chest-F4R2-M1": {
+        "label": "Raw beef",
+        "names": [
+            "raw beef"
+        ]
+    },
+    "chest-F4R2-M2": {
+        "label": "Raw porkchop",
+        "names": [
+            "raw porkchop"
+        ]
+    },
+    "chest-F4R2-M3": {
+        "label": "Raw chicken",
+        "names": [
+            "raw chicken"
+        ]
+    },
+    "chest-F4R2-D1": {
+        "label": "Raw beef",
+        "names": [
+            "raw beef"
+        ]
+    },
+    "chest-F4R2-D2": {
+        "label": "Raw porkchop",
+        "names": [
+            "raw porkchop"
+        ]
+    },
+    "chest-F4R2-D3": {
+        "label": "Raw chicken",
+        "names": [
+            "raw chicken"
+        ]
+    },
+    "chest-F4R1-U1": {
+        "label": "Raw cod",
+        "names": [
+            "raw cod"
+        ]
+    },
+    "chest-F4R1-U2": {
+        "label": "Raw salmon",
+        "names": [
+            "raw salmon"
+        ]
+    },
+    "chest-F4R1-U3": {
+        "label": "Kelp",
+        "names": [
+            "kelp"
+        ]
+    },
+    "chest-F4R1-M1": {
+        "label": "Raw cod",
+        "names": [
+            "raw cod"
+        ]
+    },
+    "chest-F4R1-M2": {
+        "label": "Raw salmon",
+        "names": [
+            "raw salmon"
+        ]
+    },
+    "chest-F4R1-M3": {
+        "label": "Kelp",
+        "names": [
+            "kelp"
+        ]
+    },
+    "chest-F4R1-D1": {
+        "label": "Raw cod",
+        "names": [
+            "raw cod"
+        ]
+    },
+    "chest-F4R1-D2": {
+        "label": "Raw salmon",
+        "names": [
+            "raw salmon"
+        ]
+    },
+    "chest-F4R1-D3": {
+        "label": "Dried kelp",
+        "names": [
+            "dried kelp",
+            "dried kelp block"
+        ]
+    },
+    "chest-F4T3-U1": {
+        "label": "Leather",
+        "names": [
+            "leather"
+        ]
+    },
+    "chest-F4T3-U2": {
+        "label": "Feather",
+        "names": [
+            "feather"
+        ]
+    },
+    "chest-F4T3-U3": {
+        "label": "Egg",
+        "names": [
+            "egg"
+        ]
+    },
+    "chest-F4T3-M1": {
+        "label": "Leather",
+        "names": [
+            "leather"
+        ]
+    },
+    "chest-F4T3-M2": {
+        "label": "Feather",
+        "names": [
+            "feather"
+        ]
+    },
+    "chest-F4T3-M3": {
+        "label": "Egg",
+        "names": [
+            "egg"
+        ]
+    },
+    "chest-F4T3-D1": {
+        "label": "Leather",
+        "names": [
+            "leather"
+        ]
+    },
+    "chest-F4T3-D2": {
+        "label": "Rabbit hide",
+        "names": [
+            "rabbit hide",
+            "milk bucket",
+            "turtle scute",
+            "goat horn"
+        ]
+    },
+    "chest-F4T3-D3": {
+        "label": "Egg",
+        "names": [
+            "egg",
+            "brown egg",
+            "blue egg"
+        ]
+    },
+    "chest-F4T2-U1": {
+        "label": "Sugar cane",
+        "names": [
+            "sugar cane"
+        ]
+    },
+    "chest-F4T2-U2": {
+        "label": "Cocoa beans",
+        "names": [
+            "cocoa beans"
+        ]
+    },
+    "chest-F4T2-U3": {
+        "label": "Apple",
+        "names": [
+            "apple"
+        ]
+    },
+    "chest-F4T2-M1": {
+        "label": "Sugar cane",
+        "names": [
+            "sugar cane"
+        ]
+    },
+    "chest-F4T2-M2": {
+        "label": "Cocoa beans",
+        "names": [
+            "cocoa beans"
+        ]
+    },
+    "chest-F4T2-M3": {
+        "label": "Sweet berries",
+        "names": [
+            "sweet berries",
+            "glow berries"
+        ]
+    },
+    "chest-F4T2-D1": {
+        "label": "Honeycomb",
+        "names": [
+            "honeycomb"
+        ]
+    },
+    "chest-F4T2-D2": {
+        "label": "Honey block",
+        "names": [
+            "honey block"
+        ]
+    },
+    "chest-F4T2-D3": {
+        "label": "Honey bottle",
+        "names": [
+            "honey bottle",
+            "honeycomb block",
+            "bee nest",
+            "beehive"
+        ]
+    },
+    "chest-F4T1-U1": {
+        "label": "Poppy",
+        "names": [
+            "poppy"
+        ]
+    },
+    "chest-F4T1-U2": {
+        "label": "Dandelion",
+        "names": [
+            "dandelion"
+        ]
+    },
+    "chest-F4T1-U3": {
+        "label": "Cornflower",
+        "names": [
+            "cornflower",
+            "blue orchid",
+            "azure bluet"
+        ]
+    },
+    "chest-F4T1-M1": {
+        "label": "Allium",
+        "names": [
+            "allium",
+            "lilac",
+            "pink tulip"
+        ]
+    },
+    "chest-F4T1-M2": {
+        "label": "Oxeye daisy",
+        "names": [
+            "oxeye daisy",
+            "white tulip",
+            "lily of the valley"
+        ]
+    },
+    "chest-F4T1-M3": {
+        "label": "Red tulip",
+        "names": [
+            "red tulip",
+            "red shrub"
+        ]
+    },
+    "chest-F4T1-D1": {
+        "label": "Sunflower",
+        "names": [
+            "sunflower",
+            "torchflower",
+            "orange tulip",
+            "pitcher plant",
+            "torchflower seeds",
+            "pitcher pod"
+        ]
+    },
+    "chest-F4T1-D2": {
+        "label": "Peony",
+        "names": [
+            "peony",
+            "rose bush",
+            "pink petals"
+        ]
+    },
+    "chest-F4T1-D3": {
+        "label": "Wither rose",
+        "names": [
+            "wither rose",
+            "open eyeblossom",
+            "closed eyeblossom",
+            "wildflowers",
+            "leaf litter",
+            "short grass",
+            "tall grass",
+            "fern",
+            "large fern",
+            "dead bush",
+            "bush"
+        ]
+    },
+    "chest-F4L1-U1": {
+        "label": "Red mushroom block",
+        "names": [
+            "red mushroom block",
+            "red mushroom"
+        ]
+    },
+    "chest-F4L1-U2": {
+        "label": "Brown mushroom block",
+        "names": [
+            "brown mushroom block",
+            "brown mushroom"
+        ]
+    },
+    "chest-F4L1-U3": {
+        "label": "Mushroom stem",
+        "names": [
+            "mushroom stem",
+            "shelf mushroom"
+        ]
+    },
+    "chest-F4L1-M1": {
+        "label": "Moss block",
+        "names": [
+            "moss block",
+            "moss carpet"
+        ]
+    },
+    "chest-F4L1-M2": {
+        "label": "Pale moss block",
+        "names": [
+            "pale moss block",
+            "pale moss carpet"
+        ]
+    },
+    "chest-F4L1-M3": {
+        "label": "Vines",
+        "names": [
+            "vines",
+            "hanging roots",
+            "lily pad",
+            "glow lichen",
+            "spore blossom"
+        ]
+    },
+    "chest-F4L1-D1": {
+        "label": "Azalea leaves",
+        "names": [
+            "azalea leaves",
+            "azalea"
+        ]
+    },
+    "chest-F4L1-D2": {
+        "label": "Flowering azalea leaves",
+        "names": [
+            "flowering azalea leaves",
+            "flowering azalea"
+        ]
+    },
+    "chest-F4L1-D3": {
+        "label": "Cactus",
+        "names": [
+            "cactus",
+            "cactus flower",
+            "dry grass"
+        ]
+    },
+    "chest-F4L2-U1": {
+        "label": "Tube coral block",
+        "names": [
+            "tube coral block",
+            "dead tube coral block",
+            "tube coral",
+            "tube coral fan"
+        ]
+    },
+    "chest-F4L2-U2": {
+        "label": "Brain coral block",
+        "names": [
+            "brain coral block",
+            "dead brain coral block",
+            "brain coral",
+            "brain coral fan"
+        ]
+    },
+    "chest-F4L2-U3": {
+        "label": "Bubble coral block",
+        "names": [
+            "bubble coral block",
+            "dead bubble coral block",
+            "bubble coral",
+            "bubble coral fan"
+        ]
+    },
+    "chest-F4L2-M1": {
+        "label": "Fire coral block",
+        "names": [
+            "fire coral block",
+            "dead fire coral block",
+            "fire coral",
+            "fire coral fan"
+        ]
+    },
+    "chest-F4L2-M2": {
+        "label": "Horn coral block",
+        "names": [
+            "horn coral block",
+            "dead horn coral block",
+            "horn coral",
+            "horn coral fan"
+        ]
+    },
+    "chest-F4L2-M3": {
+        "label": "Sponge",
+        "names": [
+            "sponge"
+        ]
+    },
+    "chest-F4L2-D1": {
+        "label": "Wet sponge",
+        "names": [
+            "wet sponge"
+        ]
+    },
+    "chest-F4L2-D2": {
+        "label": "Sea pickle",
+        "names": [
+            "sea pickle",
+            "seagrass"
+        ]
+    },
+    "chest-F4L2-D3": {
+        "label": "Tropical fish",
+        "names": [
+            "tropical fish",
+            "nautilus shell",
+            "ink sac",
+            "glow ink sac",
+            "bucket of tadpole"
+        ]
+    },
+    "chest-F4L3-U1": {
+        "label": "Bone",
+        "names": [
+            "bone"
+        ]
+    },
+    "chest-F4L3-U2": {
+        "label": "String",
+        "names": [
+            "string"
+        ]
+    },
+    "chest-F4L3-U3": {
+        "label": "Gunpowder",
+        "names": [
+            "gunpowder"
+        ]
+    },
+    "chest-F4L3-M1": {
+        "label": "Bone",
+        "names": [
+            "bone"
+        ]
+    },
+    "chest-F4L3-M2": {
+        "label": "String",
+        "names": [
+            "string"
+        ]
+    },
+    "chest-F4L3-M3": {
+        "label": "Gunpowder",
+        "names": [
+            "gunpowder"
+        ]
+    },
+    "chest-F4L3-D1": {
+        "label": "Rotten flesh",
+        "names": [
+            "rotten flesh"
+        ]
+    },
+    "chest-F4L3-D2": {
+        "label": "Spider eye",
+        "names": [
+            "spider eye",
+            "slimeball"
+        ]
+    },
+    "chest-F4L3-D3": {
+        "label": "Bone meal",
+        "names": [
+            "bone meal",
+            "bone block"
+        ]
+    },
+    "chest-F5L3-U1": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-U2": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-U3": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-M1": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-M2": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-M3": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-D1": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-D2": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L3-D3": {
+        "label": "Nether wart",
+        "names": [
+            "nether wart"
+        ]
+    },
+    "chest-F5L2-U1": {
+        "label": "Glass bottle",
+        "names": [
+            "glass bottle"
+        ]
+    },
+    "chest-F5L2-U2": {
+        "label": "Blaze powder",
+        "names": [
+            "blaze powder"
+        ]
+    },
+    "chest-F5L2-U3": {
+        "label": "Blaze rod",
+        "names": [
+            "blaze rod"
+        ]
+    },
+    "chest-F5L2-M1": {
+        "label": "Glass bottle",
+        "names": [
+            "glass bottle"
+        ]
+    },
+    "chest-F5L2-M2": {
+        "label": "Blaze powder",
+        "names": [
+            "blaze powder"
+        ]
+    },
+    "chest-F5L2-M3": {
+        "label": "Blaze rod",
+        "names": [
+            "blaze rod"
+        ]
+    },
+    "chest-F5L2-D1": {
+        "label": "Glass bottle",
+        "names": [
+            "glass bottle"
+        ]
+    },
+    "chest-F5L2-D2": {
+        "label": "Blaze powder",
+        "names": [
+            "blaze powder"
+        ]
+    },
+    "chest-F5L2-D3": {
+        "label": "Blaze rod",
+        "names": [
+            "blaze rod"
+        ]
+    },
+    "chest-F5L1-U1": {
+        "label": "Fermented spider eye",
+        "names": [
+            "fermented spider eye"
+        ]
+    },
+    "chest-F5L1-U2": {
+        "label": "Sugar",
+        "names": [
+            "sugar"
+        ]
+    },
+    "chest-F5L1-U3": {
+        "label": "Glowstone dust",
+        "names": [
+            "glowstone dust"
+        ]
+    },
+    "chest-F5L1-M1": {
+        "label": "Glistering melon slice",
+        "names": [
+            "glistering melon slice"
+        ]
+    },
+    "chest-F5L1-M2": {
+        "label": "Sugar",
+        "names": [
+            "sugar"
+        ]
+    },
+    "chest-F5L1-M3": {
+        "label": "Glowstone dust",
+        "names": [
+            "glowstone dust"
+        ]
+    },
+    "chest-F5L1-D1": {
+        "label": "Magma cream",
+        "names": [
+            "magma cream"
+        ]
+    },
+    "chest-F5L1-D2": {
+        "label": "Sugar",
+        "names": [
+            "sugar"
+        ]
+    },
+    "chest-F5L1-D3": {
+        "label": "Glowstone dust",
+        "names": [
+            "glowstone dust"
+        ]
+    },
+    "chest-F5T1-U1": {
+        "label": "Ghast tear",
+        "names": [
+            "ghast tear"
+        ]
+    },
+    "chest-F5T1-U2": {
+        "label": "Phantom membrane",
+        "names": [
+            "phantom membrane"
+        ]
+    },
+    "chest-F5T1-U3": {
+        "label": "Brewing stand",
+        "names": [
+            "brewing stand",
+            "cauldron"
+        ]
+    },
+    "chest-F5T1-M1": {
+        "label": "Rabbit foot",
+        "names": [
+            "rabbit foot"
+        ]
+    },
+    "chest-F5T1-M2": {
+        "label": "Dragon breath",
+        "names": [
+            "dragon breath"
+        ]
+    },
+    "chest-F5T1-M3": {
+        "label": "Enchanting table",
+        "names": [
+            "enchanting table",
+            "grindstone",
+            "anvil"
+        ]
+    },
+    "chest-F5T1-D1": {
+        "label": "Pufferfish",
+        "names": [
+            "pufferfish"
+        ]
+    },
+    "chest-F5T1-D2": {
+        "label": "Turtle shell",
+        "names": [
+            "turtle shell",
+            "cobweb",
+            "slime block",
+            "breeze rod"
+        ]
+    },
+    "chest-F5T1-D3": {
+        "label": "Lapis lazuli",
+        "names": [
+            "lapis lazuli"
+        ]
+    },
+    "chest-F5T2-U1": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-U2": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-U3": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-M1": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-M2": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-M3": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-D1": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-D2": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T2-D3": {
+        "label": "Potions",
+        "names": [
+            "potions"
+        ]
+    },
+    "chest-F5T3-U1": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-U2": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-U3": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-M1": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-M2": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-M3": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-D1": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-D2": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5T3-D3": {
+        "label": "Splash potions",
+        "names": [
+            "splash potions"
+        ]
+    },
+    "chest-F5R1-U1": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-U2": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-U3": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-M1": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-M2": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-M3": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-D1": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-D2": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R1-D3": {
+        "label": "Lingering potions",
+        "names": [
+            "lingering potions"
+        ]
+    },
+    "chest-F5R2-U1": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-U2": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-U3": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-M1": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-M2": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-M3": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-D1": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-D2": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R2-D3": {
+        "label": "Enchanted book",
+        "names": [
+            "enchanted book"
+        ]
+    },
+    "chest-F5R3-U1": {
+        "label": "Paper",
+        "names": [
+            "paper"
+        ]
+    },
+    "chest-F5R3-U2": {
+        "label": "Book",
+        "names": [
+            "book"
+        ]
+    },
+    "chest-F5R3-U3": {
+        "label": "Writable book",
+        "names": [
+            "writable book"
+        ]
+    },
+    "chest-F5R3-M1": {
+        "label": "Paper",
+        "names": [
+            "paper"
+        ]
+    },
+    "chest-F5R3-M2": {
+        "label": "Book",
+        "names": [
+            "book"
+        ]
+    },
+    "chest-F5R3-M3": {
+        "label": "Written book",
+        "names": [
+            "written book"
+        ]
+    },
+    "chest-F5R3-D1": {
+        "label": "Paper",
+        "names": [
+            "paper"
+        ]
+    },
+    "chest-F5R3-D2": {
+        "label": "Book",
+        "names": [
+            "book"
+        ]
+    },
+    "chest-F5R3-D3": {
+        "label": "Name tag",
+        "names": [
+            "name tag"
+        ]
+    },
+    "chest-F5B3-U1": {
+        "label": "Nether quartz ore",
+        "names": [
+            "nether quartz ore"
+        ]
+    },
+    "chest-F5B3-U2": {
+        "label": "Amethyst cluster",
+        "names": [
+            "amethyst cluster"
+        ]
+    },
+    "chest-F5B3-U3": {
+        "label": "Lapis lazuli ore",
+        "names": [
+            "lapis lazuli ore",
+            "deepslate lapis lazuli ore"
+        ]
+    },
+    "chest-F5B3-M1": {
+        "label": "Prismarine shard",
+        "names": [
+            "prismarine shard"
+        ]
+    },
+    "chest-F5B3-M2": {
+        "label": "Small amethyst bud",
+        "names": [
+            "small amethyst bud",
+            "medium amethyst bud",
+            "large amethyst bud"
+        ]
+    },
+    "chest-F5B3-M3": {
+        "label": "Lapis lazuli block",
+        "names": [
+            "lapis lazuli block"
+        ]
+    },
+    "chest-F5B3-D1": {
+        "label": "Prismarine crystals",
+        "names": [
+            "prismarine crystals"
+        ]
+    },
+    "chest-F5B3-D2": {
+        "label": "Nether quartz",
+        "names": [
+            "nether quartz"
+        ]
+    },
+    "chest-F5B3-D3": {
+        "label": "Amethyst shard",
+        "names": [
+            "amethyst shard"
+        ]
+    },
+    "chest-F5B2-U1": {
+        "label": "Emerald ore",
+        "names": [
+            "emerald ore",
+            "deepslate emerald ore"
+        ]
+    },
+    "chest-F5B2-U2": {
+        "label": "Block of gold",
+        "names": [
+            "block of gold"
+        ]
+    },
+    "chest-F5B2-U3": {
+        "label": "Gold ore",
+        "names": [
+            "gold ore",
+            "deepslate gold ore",
+            "nether gold ore"
+        ]
+    },
+    "chest-F5B2-M1": {
+        "label": "Emerald",
+        "names": [
+            "emerald"
+        ]
+    },
+    "chest-F5B2-M2": {
+        "label": "Gold nugget",
+        "names": [
+            "gold nugget"
+        ]
+    },
+    "chest-F5B2-M3": {
+        "label": "Raw gold",
+        "names": [
+            "raw gold",
+            "block of raw gold"
+        ]
+    },
+    "chest-F5B2-D1": {
+        "label": "Block of emerald",
+        "names": [
+            "block of emerald"
+        ]
+    },
+    "chest-F5B2-D2": {
+        "label": "Gold tools",
+        "names": [
+            "gold tools",
+            "gold armor",
+            "golden horse armor"
+        ]
+    },
+    "chest-F5B2-D3": {
+        "label": "Gold ingot",
+        "names": [
+            "gold ingot"
+        ]
+    },
+    "chest-F5B1-U1": {
+        "label": "Golden carrot",
+        "names": [
+            "golden carrot"
+        ]
+    },
+    "chest-F5B1-U2": {
+        "label": "Map",
+        "names": [
+            "map",
+            "empty map"
+        ]
+    },
+    "chest-F5B1-U3": {
+        "label": "Redstone ore",
+        "names": [
+            "redstone ore",
+            "deepslate redstone ore"
+        ]
+    },
+    "chest-F5B1-M1": {
+        "label": "Golden apple",
+        "names": [
+            "golden apple"
+        ]
+    },
+    "chest-F5B1-M2": {
+        "label": "Compass",
+        "names": [
+            "compass"
+        ]
+    },
+    "chest-F5B1-M3": {
+        "label": "Block of redstone",
+        "names": [
+            "block of redstone"
+        ]
+    },
+    "chest-F5B1-D1": {
+        "label": "Experience bottle",
+        "names": [
+            "experience bottle"
+        ]
+    },
+    "chest-F5B1-D2": {
+        "label": "Clock",
+        "names": [
+            "clock"
+        ]
+    },
+    "chest-F5B1-D3": {
+        "label": "Redstone dust",
+        "names": [
+            "redstone dust"
+        ]
+    },
+    "chest-F6B1-U1": {
+        "label": "Copper ore",
+        "names": [
+            "copper ore",
+            "deepslate copper ore"
+        ]
+    },
+    "chest-F6B1-U2": {
+        "label": "Raw copper",
+        "names": [
+            "raw copper"
+        ]
+    },
+    "chest-F6B1-U3": {
+        "label": "Block of raw copper",
+        "names": [
+            "block of raw copper"
+        ]
+    },
+    "chest-F6B1-M1": {
+        "label": "Copper ingot",
+        "names": [
+            "copper ingot"
+        ]
+    },
+    "chest-F6B1-M2": {
+        "label": "Copper ingot",
+        "names": [
+            "copper ingot"
+        ]
+    },
+    "chest-F6B1-M3": {
+        "label": "Copper ingot",
+        "names": [
+            "copper ingot"
+        ]
+    },
+    "chest-F6B1-D1": {
+        "label": "Copper nugget",
+        "names": [
+            "copper nugget"
+        ]
+    },
+    "chest-F6B1-D2": {
+        "label": "Copper tools",
+        "names": [
+            "copper tools",
+            "copper armor"
+        ]
+    },
+    "chest-F6B1-D3": {
+        "label": "Copper torch",
+        "names": [
+            "copper torch"
+        ]
+    },
+    "chest-F6B2-U1": {
+        "label": "Block of copper",
+        "names": [
+            "block of copper",
+            "waxed block of copper"
+        ]
+    },
+    "chest-F6B2-U2": {
+        "label": "Cut copper",
+        "names": [
+            "cut copper",
+            "waxed cut copper"
+        ]
+    },
+    "chest-F6B2-U3": {
+        "label": "Copper grate",
+        "names": [
+            "copper grate",
+            "waxed copper grate"
+        ]
+    },
+    "chest-F6B2-M1": {
+        "label": "Cut copper stairs",
+        "names": [
+            "cut copper stairs",
+            "waxed cut copper stairs"
+        ]
+    },
+    "chest-F6B2-M2": {
+        "label": "Cut copper slab",
+        "names": [
+            "cut copper slab",
+            "waxed cut copper slab"
+        ]
+    },
+    "chest-F6B2-M3": {
+        "label": "Copper bulb",
+        "names": [
+            "copper bulb",
+            "waxed copper bulb"
+        ]
+    },
+    "chest-F6B2-D1": {
+        "label": "Copper door",
+        "names": [
+            "copper door",
+            "waxed copper door",
+            "copper trapdoor",
+            "waxed copper trapdoor"
+        ]
+    },
+    "chest-F6B2-D2": {
+        "label": "Copper chest",
+        "names": [
+            "copper chest",
+            "waxed copper chest",
+            "copper bars",
+            "waxed copper bars",
+            "copper chain",
+            "waxed copper chain"
+        ]
+    },
+    "chest-F6B2-D3": {
+        "label": "Copper lantern",
+        "names": [
+            "copper lantern",
+            "waxed copper lantern",
+            "copper golem statue",
+            "waxed copper golem statue",
+            "lightning rod",
+            "waxed lightning rod"
+        ]
+    },
+    "chest-F6B3-U1": {
+        "label": "Exposed copper",
+        "names": [
+            "exposed copper",
+            "waxed exposed copper"
+        ]
+    },
+    "chest-F6B3-U2": {
+        "label": "Exposed cut copper",
+        "names": [
+            "exposed cut copper",
+            "waxed exposed cut copper"
+        ]
+    },
+    "chest-F6B3-U3": {
+        "label": "Exposed copper grate",
+        "names": [
+            "exposed copper grate",
+            "waxed exposed copper grate"
+        ]
+    },
+    "chest-F6B3-M1": {
+        "label": "Exposed cut copper stairs",
+        "names": [
+            "exposed cut copper stairs",
+            "waxed exposed cut copper stairs"
+        ]
+    },
+    "chest-F6B3-M2": {
+        "label": "Exposed cut copper slab",
+        "names": [
+            "exposed cut copper slab",
+            "waxed exposed cut copper slab"
+        ]
+    },
+    "chest-F6B3-M3": {
+        "label": "Exposed copper bulb",
+        "names": [
+            "exposed copper bulb",
+            "waxed exposed copper bulb"
+        ]
+    },
+    "chest-F6B3-D1": {
+        "label": "Exposed copper door",
+        "names": [
+            "exposed copper door",
+            "waxed exposed copper door",
+            "exposed copper trapdoor",
+            "waxed exposed copper trapdoor"
+        ]
+    },
+    "chest-F6B3-D2": {
+        "label": "Exposed copper chest",
+        "names": [
+            "exposed copper chest",
+            "waxed exposed copper chest",
+            "exposed copper bars",
+            "waxed exposed copper bars",
+            "exposed copper chain",
+            "waxed exposed copper chain"
+        ]
+    },
+    "chest-F6B3-D3": {
+        "label": "Exposed copper lantern",
+        "names": [
+            "exposed copper lantern",
+            "waxed exposed copper lantern",
+            "exposed copper golem statue",
+            "waxed exposed copper golem statue",
+            "exposed lightning rod",
+            "waxed exposed lightning rod"
+        ]
+    },
+    "chest-F6R3-U1": {
+        "label": "Weathered copper",
+        "names": [
+            "weathered copper",
+            "waxed weathered copper"
+        ]
+    },
+    "chest-F6R3-U2": {
+        "label": "Weathered cut copper",
+        "names": [
+            "weathered cut copper",
+            "waxed weathered cut copper"
+        ]
+    },
+    "chest-F6R3-U3": {
+        "label": "Weathered copper grate",
+        "names": [
+            "weathered copper grate",
+            "waxed weathered copper grate"
+        ]
+    },
+    "chest-F6R3-M1": {
+        "label": "Weathered cut copper stairs",
+        "names": [
+            "weathered cut copper stairs",
+            "waxed weathered cut copper stairs"
+        ]
+    },
+    "chest-F6R3-M2": {
+        "label": "Weathered cut copper slab",
+        "names": [
+            "weathered cut copper slab",
+            "waxed weathered cut copper slab"
+        ]
+    },
+    "chest-F6R3-M3": {
+        "label": "Weathered copper bulb",
+        "names": [
+            "weathered copper bulb",
+            "waxed weathered copper bulb"
+        ]
+    },
+    "chest-F6R3-D1": {
+        "label": "Weathered copper door",
+        "names": [
+            "weathered copper door",
+            "waxed weathered copper door",
+            "weathered copper trapdoor",
+            "waxed weathered copper trapdoor"
+        ]
+    },
+    "chest-F6R3-D2": {
+        "label": "Weathered copper chest",
+        "names": [
+            "weathered copper chest",
+            "waxed weathered copper chest",
+            "weathered copper bars",
+            "waxed weathered copper bars",
+            "weathered copper chain",
+            "waxed weathered copper chain"
+        ]
+    },
+    "chest-F6R3-D3": {
+        "label": "Weathered copper lantern",
+        "names": [
+            "weathered copper lantern",
+            "waxed weathered copper lantern",
+            "weathered copper golem statue",
+            "waxed weathered copper golem statue",
+            "weathered lightning rod",
+            "waxed weathered lightning rod"
+        ]
+    },
+    "chest-F6R2-U1": {
+        "label": "Oxidized copper",
+        "names": [
+            "oxidized copper",
+            "waxed oxidized copper"
+        ]
+    },
+    "chest-F6R2-U2": {
+        "label": "Oxidized cut copper",
+        "names": [
+            "oxidized cut copper",
+            "waxed oxidized cut copper"
+        ]
+    },
+    "chest-F6R2-U3": {
+        "label": "Oxidized copper grate",
+        "names": [
+            "oxidized copper grate",
+            "waxed oxidized copper grate"
+        ]
+    },
+    "chest-F6R2-M1": {
+        "label": "Oxidized cut copper stairs",
+        "names": [
+            "oxidized cut copper stairs",
+            "waxed oxidized cut copper stairs"
+        ]
+    },
+    "chest-F6R2-M2": {
+        "label": "Oxidized cut copper slab",
+        "names": [
+            "oxidized cut copper slab",
+            "waxed oxidized cut copper slab"
+        ]
+    },
+    "chest-F6R2-M3": {
+        "label": "Oxidized copper bulb",
+        "names": [
+            "oxidized copper bulb",
+            "waxed oxidized copper bulb"
+        ]
+    },
+    "chest-F6R2-D1": {
+        "label": "Oxidized copper door",
+        "names": [
+            "oxidized copper door",
+            "waxed oxidized copper door",
+            "oxidized copper trapdoor",
+            "waxed oxidized copper trapdoor"
+        ]
+    },
+    "chest-F6R2-D2": {
+        "label": "Oxidized copper chest",
+        "names": [
+            "oxidized copper chest",
+            "waxed oxidized copper chest",
+            "oxidized copper bars",
+            "waxed oxidized copper bars",
+            "oxidized copper chain",
+            "waxed oxidized copper chain"
+        ]
+    },
+    "chest-F6R2-D3": {
+        "label": "Oxidized copper lantern",
+        "names": [
+            "oxidized copper lantern",
+            "waxed oxidized copper lantern",
+            "oxidized copper golem statue",
+            "waxed oxidized copper golem statue",
+            "oxidized lightning rod",
+            "waxed oxidized lightning rod"
+        ]
+    },
+    "chest-F6R1-U1": {
+        "label": "Iron ore",
+        "names": [
+            "iron ore",
+            "deepslate iron ore"
+        ]
+    },
+    "chest-F6R1-U2": {
+        "label": "Raw iron",
+        "names": [
+            "raw iron"
+        ]
+    },
+    "chest-F6R1-U3": {
+        "label": "Iron ingot",
+        "names": [
+            "iron ingot"
+        ]
+    },
+    "chest-F6R1-M1": {
+        "label": "Block of raw iron",
+        "names": [
+            "block of raw iron"
+        ]
+    },
+    "chest-F6R1-M2": {
+        "label": "Block of iron",
+        "names": [
+            "block of iron"
+        ]
+    },
+    "chest-F6R1-M3": {
+        "label": "Iron ingot",
+        "names": [
+            "iron ingot"
+        ]
+    },
+    "chest-F6R1-D1": {
+        "label": "Iron door",
+        "names": [
+            "iron door",
+            "iron trapdoor"
+        ]
+    },
+    "chest-F6R1-D2": {
+        "label": "Iron pickaxe",
+        "names": [
+            "iron pickaxe",
+            "iron shovel",
+            "iron axe",
+            "iron hoe",
+            "iron sword",
+            "iron armor",
+            "shears",
+            "flint and steel"
+        ]
+    },
+    "chest-F6R1-D3": {
+        "label": "Iron nugget",
+        "names": [
+            "iron nugget",
+            "iron bars",
+            "iron chain"
+        ]
+    },
+    "chest-F6T3-U1": {
+        "label": "Coal ore",
+        "names": [
+            "coal ore",
+            "deepslate coal ore"
+        ]
+    },
+    "chest-F6T3-U2": {
+        "label": "Coal",
+        "names": [
+            "coal"
+        ]
+    },
+    "chest-F6T3-U3": {
+        "label": "Block of coal",
+        "names": [
+            "block of coal"
+        ]
+    },
+    "chest-F6T3-M1": {
+        "label": "Coal ore",
+        "names": [
+            "coal ore",
+            "deepslate coal ore"
+        ]
+    },
+    "chest-F6T3-M2": {
+        "label": "Coal",
+        "names": [
+            "coal"
+        ]
+    },
+    "chest-F6T3-M3": {
+        "label": "Block of coal",
+        "names": [
+            "block of coal"
+        ]
+    },
+    "chest-F6T3-D1": {
+        "label": "Coal ore",
+        "names": [
+            "coal ore",
+            "deepslate coal ore"
+        ]
+    },
+    "chest-F6T3-D2": {
+        "label": "Coal",
+        "names": [
+            "coal"
+        ]
+    },
+    "chest-F6T3-D3": {
+        "label": "Block of coal",
+        "names": [
+            "block of coal"
+        ]
+    },
+    "chest-F6T2-U1": {
+        "label": "Piston",
+        "names": [
+            "piston"
+        ]
+    },
+    "chest-F6T2-U2": {
+        "label": "Sticky piston",
+        "names": [
+            "sticky piston"
+        ]
+    },
+    "chest-F6T2-U3": {
+        "label": "Observer",
+        "names": [
+            "observer"
+        ]
+    },
+    "chest-F6T2-M1": {
+        "label": "Dispenser",
+        "names": [
+            "dispenser"
+        ]
+    },
+    "chest-F6T2-M2": {
+        "label": "Dropper",
+        "names": [
+            "dropper"
+        ]
+    },
+    "chest-F6T2-M3": {
+        "label": "Crafter",
+        "names": [
+            "crafter"
+        ]
+    },
+    "chest-F6T2-D1": {
+        "label": "Repeater",
+        "names": [
+            "repeater"
+        ]
+    },
+    "chest-F6T2-D2": {
+        "label": "Comparator",
+        "names": [
+            "comparator"
+        ]
+    },
+    "chest-F6T2-D3": {
+        "label": "Redstone torch",
+        "names": [
+            "redstone torch"
+        ]
+    },
+    "chest-F6T1-U1": {
+        "label": "Lever",
+        "names": [
+            "lever",
+            "stone button",
+            "stone pressure plate"
+        ]
+    },
+    "chest-F6T1-U2": {
+        "label": "Daylight detector",
+        "names": [
+            "daylight detector"
+        ]
+    },
+    "chest-F6T1-U3": {
+        "label": "Target block",
+        "names": [
+            "target block"
+        ]
+    },
+    "chest-F6T1-M1": {
+        "label": "Redstone lamp",
+        "names": [
+            "redstone lamp"
+        ]
+    },
+    "chest-F6T1-M2": {
+        "label": "Tnt",
+        "names": [
+            "tnt"
+        ]
+    },
+    "chest-F6T1-M3": {
+        "label": "Sculk sensor",
+        "names": [
+            "sculk sensor",
+            "calibrated sculk sensor"
+        ]
+    },
+    "chest-F6T1-D1": {
+        "label": "Heavy weighted pressure plate",
+        "names": [
+            "heavy weighted pressure plate"
+        ]
+    },
+    "chest-F6T1-D2": {
+        "label": "Light weighted pressure plate",
+        "names": [
+            "light weighted pressure plate"
+        ]
+    },
+    "chest-F6T1-D3": {
+        "label": "Tripwire hook",
+        "names": [
+            "tripwire hook"
+        ]
+    },
+    "chest-F6L1-U1": {
+        "label": "Furnace",
+        "names": [
+            "furnace",
+            "smoker",
+            "blast furnace"
+        ]
+    },
+    "chest-F6L1-U2": {
+        "label": "Stonecutter",
+        "names": [
+            "stonecutter",
+            "smithing table"
+        ]
+    },
+    "chest-F6L1-U3": {
+        "label": "Hopper",
+        "names": [
+            "hopper"
+        ]
+    },
+    "chest-F6L1-M1": {
+        "label": "Bucket",
+        "names": [
+            "bucket",
+            "water bucket",
+            "lava bucket",
+            "powder snow bucket"
+        ]
+    },
+    "chest-F6L1-M2": {
+        "label": "Bell",
+        "names": [
+            "bell",
+            "lodestone",
+            "respawn anchor"
+        ]
+    },
+    "chest-F6L1-M3": {
+        "label": "Bundle",
+        "names": [
+            "bundle"
+        ]
+    },
+    "chest-F6L1-D1": {
+        "label": "Torch",
+        "names": [
+            "torch",
+            "soul torch",
+            "lantern",
+            "soul lantern"
+        ]
+    },
+    "chest-F6L1-D2": {
+        "label": "Campfire",
+        "names": [
+            "campfire",
+            "soul campfire",
+            "candle"
+        ]
+    },
+    "chest-F6L1-D3": {
+        "label": "Flower pot",
+        "names": [
+            "flower pot",
+            "decorated pot"
+        ]
+    },
+    "chest-F6L2-U1": {
+        "label": "Rail",
+        "names": [
+            "rail"
+        ]
+    },
+    "chest-F6L2-U2": {
+        "label": "Powered rail",
+        "names": [
+            "powered rail"
+        ]
+    },
+    "chest-F6L2-U3": {
+        "label": "Detector rail",
+        "names": [
+            "detector rail",
+            "activator rail"
+        ]
+    },
+    "chest-F6L2-M1": {
+        "label": "Minecart",
+        "names": [
+            "minecart"
+        ]
+    },
+    "chest-F6L2-M2": {
+        "label": "Chest minecart",
+        "names": [
+            "chest minecart",
+            "hopper minecart"
+        ]
+    },
+    "chest-F6L2-M3": {
+        "label": "Furnace minecart",
+        "names": [
+            "furnace minecart",
+            "tnt minecart"
+        ]
+    },
+    "chest-F6L2-D1": {
+        "label": "Saddle",
+        "names": [
+            "saddle",
+            "lead",
+            "carrot on a stick",
+            "warped fungus on a stick"
+        ]
+    },
+    "chest-F6L2-D2": {
+        "label": "Iron horse armor",
+        "names": [
+            "iron horse armor",
+            "copper horse armor",
+            "leather horse armor"
+        ]
+    },
+    "chest-F6L2-D3": {
+        "label": "Fishing rod",
+        "names": [
+            "fishing rod",
+            "spyglass"
+        ]
+    },
+    "chest-F6L3-U1": {
+        "label": "Bow",
+        "names": [
+            "bow"
+        ]
+    },
+    "chest-F6L3-U2": {
+        "label": "Crossbow",
+        "names": [
+            "crossbow"
+        ]
+    },
+    "chest-F6L3-U3": {
+        "label": "Trident",
+        "names": [
+            "trident"
+        ]
+    },
+    "chest-F6L3-M1": {
+        "label": "Arrow",
+        "names": [
+            "arrow"
+        ]
+    },
+    "chest-F6L3-M2": {
+        "label": "Spectral arrow",
+        "names": [
+            "spectral arrow"
+        ]
+    },
+    "chest-F6L3-M3": {
+        "label": "Tipped arrows",
+        "names": [
+            "tipped arrows"
+        ]
+    },
+    "chest-F6L3-D1": {
+        "label": "Shield",
+        "names": [
+            "shield"
+        ]
+    },
+    "chest-F6L3-D2": {
+        "label": "Leather armor",
+        "names": [
+            "leather armor",
+            "wolf armor"
+        ]
+    },
+    "chest-F6L3-D3": {
+        "label": "Stone pickaxe",
+        "names": [
+            "stone pickaxe",
+            "stone axe",
+            "stone shovel",
+            "stone sword",
+            "stone hoe"
+        ]
+    },
+    "chest-F7L3-U1": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-U2": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-U3": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-M1": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-M2": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-M3": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-D1": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-D2": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L3-D3": {
+        "label": "End stone",
+        "names": [
+            "end stone"
+        ]
+    },
+    "chest-F7L2-U1": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-U2": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-U3": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-M1": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-M2": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-M3": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-D1": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-D2": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L2-D3": {
+        "label": "End stone bricks",
+        "names": [
+            "end stone bricks"
+        ]
+    },
+    "chest-F7L1-U1": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-U2": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-U3": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-M1": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-M2": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-M3": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-D1": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-D2": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7L1-D3": {
+        "label": "Purpur block",
+        "names": [
+            "purpur block"
+        ]
+    },
+    "chest-F7T1-U1": {
+        "label": "End stone brick stairs",
+        "names": [
+            "end stone brick stairs"
+        ]
+    },
+    "chest-F7T1-U2": {
+        "label": "End stone brick slab",
+        "names": [
+            "end stone brick slab"
+        ]
+    },
+    "chest-F7T1-U3": {
+        "label": "End stone brick wall",
+        "names": [
+            "end stone brick wall"
+        ]
+    },
+    "chest-F7T1-M1": {
+        "label": "Purpur stairs",
+        "names": [
+            "purpur stairs"
+        ]
+    },
+    "chest-F7T1-M2": {
+        "label": "Purpur slab",
+        "names": [
+            "purpur slab"
+        ]
+    },
+    "chest-F7T1-M3": {
+        "label": "Purpur pillar",
+        "names": [
+            "purpur pillar"
+        ]
+    },
+    "chest-F7T1-D1": {
+        "label": "Elytra",
+        "names": [
+            "elytra"
+        ]
+    },
+    "chest-F7T1-D2": {
+        "label": "Firework rocket",
+        "names": [
+            "firework rocket"
+        ]
+    },
+    "chest-F7T1-D3": {
+        "label": "Firework star",
+        "names": [
+            "firework star"
+        ]
+    },
+    "chest-F7T2-U1": {
+        "label": "Diamond ore",
+        "names": [
+            "diamond ore",
+            "deepslate diamond ore"
+        ]
+    },
+    "chest-F7T2-U2": {
+        "label": "Diamond",
+        "names": [
+            "diamond"
+        ]
+    },
+    "chest-F7T2-U3": {
+        "label": "Block of diamond",
+        "names": [
+            "block of diamond"
+        ]
+    },
+    "chest-F7T2-M1": {
+        "label": "Diamond pickaxe",
+        "names": [
+            "diamond pickaxe"
+        ]
+    },
+    "chest-F7T2-M2": {
+        "label": "Diamond axe",
+        "names": [
+            "diamond axe"
+        ]
+    },
+    "chest-F7T2-M3": {
+        "label": "Diamond shovel",
+        "names": [
+            "diamond shovel"
+        ]
+    },
+    "chest-F7T2-D1": {
+        "label": "Diamond sword",
+        "names": [
+            "diamond sword",
+            "diamond hoe"
+        ]
+    },
+    "chest-F7T2-D2": {
+        "label": "Diamond helmet",
+        "names": [
+            "diamond helmet",
+            "diamond chestplate"
+        ]
+    },
+    "chest-F7T2-D3": {
+        "label": "Diamond leggings",
+        "names": [
+            "diamond leggings",
+            "diamond boots",
+            "diamond horse armor"
+        ]
+    },
+    "chest-F7T3-U1": {
+        "label": "Ancient debris",
+        "names": [
+            "ancient debris",
+            "netherite scrap",
+            "netherite upgrade template"
+        ]
+    },
+    "chest-F7T3-U2": {
+        "label": "Netherite ingot",
+        "names": [
+            "netherite ingot"
+        ]
+    },
+    "chest-F7T3-U3": {
+        "label": "Block of netherite",
+        "names": [
+            "block of netherite"
+        ]
+    },
+    "chest-F7T3-M1": {
+        "label": "Netherite pickaxe",
+        "names": [
+            "netherite pickaxe"
+        ]
+    },
+    "chest-F7T3-M2": {
+        "label": "Netherite axe",
+        "names": [
+            "netherite axe"
+        ]
+    },
+    "chest-F7T3-M3": {
+        "label": "Netherite shovel",
+        "names": [
+            "netherite shovel"
+        ]
+    },
+    "chest-F7T3-D1": {
+        "label": "Netherite sword",
+        "names": [
+            "netherite sword",
+            "netherite hoe"
+        ]
+    },
+    "chest-F7T3-D2": {
+        "label": "Netherite helmet",
+        "names": [
+            "netherite helmet",
+            "netherite chestplate"
+        ]
+    },
+    "chest-F7T3-D3": {
+        "label": "Netherite leggings",
+        "names": [
+            "netherite leggings",
+            "netherite boots"
+        ]
+    },
+    "chest-F7R1-U1": {
+        "label": "Shulker shell",
+        "names": [
+            "shulker shell"
+        ]
+    },
+    "chest-F7R1-U2": {
+        "label": "Shulker shell",
+        "names": [
+            "shulker shell"
+        ]
+    },
+    "chest-F7R1-U3": {
+        "label": "Shulker shell",
+        "names": [
+            "shulker shell"
+        ]
+    },
+    "chest-F7R1-M1": {
+        "label": "Shulker box",
+        "names": [
+            "shulker box"
+        ]
+    },
+    "chest-F7R1-M2": {
+        "label": "Shulker box",
+        "names": [
+            "shulker box"
+        ]
+    },
+    "chest-F7R1-M3": {
+        "label": "Shulker box",
+        "names": [
+            "shulker box"
+        ]
+    },
+    "chest-F7R1-D1": {
+        "label": "Ender chest",
+        "names": [
+            "ender chest"
+        ]
+    },
+    "chest-F7R1-D2": {
+        "label": "Ender pearl",
+        "names": [
+            "ender pearl"
+        ]
+    },
+    "chest-F7R1-D3": {
+        "label": "End crystal",
+        "names": [
+            "end crystal"
+        ]
+    },
+    "chest-F7R2-U1": {
+        "label": "Chorus fruit",
+        "names": [
+            "chorus fruit"
+        ]
+    },
+    "chest-F7R2-U2": {
+        "label": "Popped chorus fruit",
+        "names": [
+            "popped chorus fruit"
+        ]
+    },
+    "chest-F7R2-U3": {
+        "label": "Chorus flower",
+        "names": [
+            "chorus flower"
+        ]
+    },
+    "chest-F7R2-M1": {
+        "label": "End rod",
+        "names": [
+            "end rod"
+        ]
+    },
+    "chest-F7R2-M2": {
+        "label": "Dragon egg",
+        "names": [
+            "dragon egg",
+            "totem of undying",
+            "enchanted golden apple"
+        ]
+    },
+    "chest-F7R2-M3": {
+        "label": "Heavy core",
+        "names": [
+            "heavy core",
+            "mace",
+            "wind charge"
+        ]
+    },
+    "chest-F7R2-D1": {
+        "label": "Trial key",
+        "names": [
+            "trial key",
+            "ominous trial key",
+            "ominous bottle"
+        ]
+    },
+    "chest-F7R2-D2": {
+        "label": "Echo shard",
+        "names": [
+            "echo shard",
+            "disc fragment",
+            "recovery compass"
+        ]
+    },
+    "chest-F7R2-D3": {
+        "label": "Nether star",
+        "names": [
+            "nether star",
+            "beacon",
+            "heart of the sea",
+            "conduit"
+        ]
+    },
+    "chest-F7R3-U1": {
+        "label": "Music disc · 13",
+        "names": [
+            "music disc · 13",
+            "music disc · cat"
+        ]
+    },
+    "chest-F7R3-U2": {
+        "label": "Music disc · blocks",
+        "names": [
+            "music disc · blocks",
+            "music disc · chirp"
+        ]
+    },
+    "chest-F7R3-U3": {
+        "label": "Music disc · far",
+        "names": [
+            "music disc · far",
+            "music disc · mall"
+        ]
+    },
+    "chest-F7R3-M1": {
+        "label": "Music disc · mellohi",
+        "names": [
+            "music disc · mellohi",
+            "music disc · stal"
+        ]
+    },
+    "chest-F7R3-M2": {
+        "label": "Music disc · strad",
+        "names": [
+            "music disc · strad",
+            "music disc · ward"
+        ]
+    },
+    "chest-F7R3-M3": {
+        "label": "Music disc · 11",
+        "names": [
+            "music disc · 11",
+            "music disc · wait"
+        ]
+    },
+    "chest-F7R3-D1": {
+        "label": "Music disc · pigstep",
+        "names": [
+            "music disc · pigstep",
+            "music disc · otherside",
+            "music disc · 5"
+        ]
+    },
+    "chest-F7R3-D2": {
+        "label": "Music disc · relic",
+        "names": [
+            "music disc · relic",
+            "music disc · precipice",
+            "music disc · creator"
+        ]
+    },
+    "chest-F7R3-D3": {
+        "label": "Music disc · creator (music box)",
+        "names": [
+            "music disc · creator (music box)",
+            "music disc · tears",
+            "music disc · lava chicken"
+        ]
+    },
+    "chest-F7B3-U1": {
+        "label": "Sentry armor trim smithing template",
+        "names": [
+            "sentry armor trim smithing template",
+            "dune armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-U2": {
+        "label": "Coast armor trim smithing template",
+        "names": [
+            "coast armor trim smithing template",
+            "wild armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-U3": {
+        "label": "Ward armor trim smithing template",
+        "names": [
+            "ward armor trim smithing template",
+            "eye armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-M1": {
+        "label": "Vex armor trim smithing template",
+        "names": [
+            "vex armor trim smithing template",
+            "tide armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-M2": {
+        "label": "Snout armor trim smithing template",
+        "names": [
+            "snout armor trim smithing template",
+            "rib armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-M3": {
+        "label": "Spire armor trim smithing template",
+        "names": [
+            "spire armor trim smithing template",
+            "wayfinder armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-D1": {
+        "label": "Shaper armor trim smithing template",
+        "names": [
+            "shaper armor trim smithing template",
+            "silence armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-D2": {
+        "label": "Raiser armor trim smithing template",
+        "names": [
+            "raiser armor trim smithing template",
+            "host armor trim smithing template"
+        ]
+    },
+    "chest-F7B3-D3": {
+        "label": "Flow armor trim smithing template",
+        "names": [
+            "flow armor trim smithing template",
+            "bolt armor trim smithing template"
+        ]
+    },
+    "chest-F7B2-U1": {
+        "label": "Angler pottery sherd",
+        "names": [
+            "angler pottery sherd",
+            "archer pottery sherd",
+            "arms up pottery sherd",
+            "brush"
+        ]
+    },
+    "chest-F7B2-U2": {
+        "label": "Blade pottery sherd",
+        "names": [
+            "blade pottery sherd",
+            "brewer pottery sherd",
+            "burn pottery sherd"
+        ]
+    },
+    "chest-F7B2-U3": {
+        "label": "Danger pottery sherd",
+        "names": [
+            "danger pottery sherd",
+            "explorer pottery sherd",
+            "flow pottery sherd"
+        ]
+    },
+    "chest-F7B2-M1": {
+        "label": "Friend pottery sherd",
+        "names": [
+            "friend pottery sherd",
+            "guster pottery sherd",
+            "heart pottery sherd"
+        ]
+    },
+    "chest-F7B2-M2": {
+        "label": "Heartbreak pottery sherd",
+        "names": [
+            "heartbreak pottery sherd",
+            "howl pottery sherd",
+            "miner pottery sherd"
+        ]
+    },
+    "chest-F7B2-M3": {
+        "label": "Mourner pottery sherd",
+        "names": [
+            "mourner pottery sherd",
+            "plenty pottery sherd"
+        ]
+    },
+    "chest-F7B2-D1": {
+        "label": "Prize pottery sherd",
+        "names": [
+            "prize pottery sherd",
+            "scrape pottery sherd"
+        ]
+    },
+    "chest-F7B2-D2": {
+        "label": "Sheaf pottery sherd",
+        "names": [
+            "sheaf pottery sherd",
+            "shelter pottery sherd"
+        ]
+    },
+    "chest-F7B2-D3": {
+        "label": "Skull pottery sherd",
+        "names": [
+            "skull pottery sherd",
+            "snort pottery sherd"
+        ]
+    },
+    "chest-F7B1-U1": {
+        "label": "Skeleton skull",
+        "names": [
+            "skeleton skull"
+        ]
+    },
+    "chest-F7B1-U2": {
+        "label": "Wither skeleton skull",
+        "names": [
+            "wither skeleton skull"
+        ]
+    },
+    "chest-F7B1-U3": {
+        "label": "Zombie head",
+        "names": [
+            "zombie head"
+        ]
+    },
+    "chest-F7B1-M1": {
+        "label": "Creeper head",
+        "names": [
+            "creeper head"
+        ]
+    },
+    "chest-F7B1-M2": {
+        "label": "Piglin head",
+        "names": [
+            "piglin head"
+        ]
+    },
+    "chest-F7B1-M3": {
+        "label": "Dragon head",
+        "names": [
+            "dragon head"
+        ]
+    },
+    "chest-F7B1-D1": {
+        "label": "Flower charge banner pattern",
+        "names": [
+            "flower charge banner pattern",
+            "creeper charge banner pattern",
+            "skull charge banner pattern"
+        ]
+    },
+    "chest-F7B1-D2": {
+        "label": "Thing banner pattern",
+        "names": [
+            "thing banner pattern",
+            "globe banner pattern"
+        ]
+    },
+    "chest-F7B1-D3": {
+        "label": "Snout banner pattern",
+        "names": [
+            "snout banner pattern",
+            "flow banner pattern",
+            "guster banner pattern"
+        ]
+    }
+}
