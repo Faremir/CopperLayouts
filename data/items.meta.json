@@ -1,0 +1,9 @@
+{
+    "minecraft_version": "26.1",
+    "repository": "PrismarineJS/minecraft-data",
+    "upstream_commit": "8ffb321c74cffe779acf5c447d08c473c4c291d7",
+    "source_path": "data/pc/26.1/items.json",
+    "source_url": "https://raw.githubusercontent.com/PrismarineJS/minecraft-data/8ffb321c74cffe779acf5c447d08c473c4c291d7/data/pc/26.1/items.json",
+    "item_count": 1506,
+    "sha256": "bb3ecb04907f6e5a4bd1ebe9e9cd174dd01b887812a5a1dd257f33a82f86c0c1"
+}

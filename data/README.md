@@ -1,7 +1,9 @@
-# Bundled data
+# Catalog data
 
-`default-layout.json` contains the accepted eight-floor arrangement in schema 4, with independent module counts for each wall. All 837 chest identities and positions are preserved. Its contents use only exact names and registry IDs from the bundled catalog; 43 chests whose previous contents were absent from that catalog are now empty and labeled “Unassigned”.
+`items.json` is generated from the latest stable Java item catalog available in PrismarineJS. `items.meta.json` records its Minecraft version, pinned upstream commit, source URL, record count, and SHA-256 checksum of the generated file.
 
-`legacy-preset.json` records the original preset labels and item names. It lets old browser saves and imports receive catalog corrections without overwriting user-created chests, custom labels, or moved positions.
+Run `npm run update:items` to refresh these two files. The scheduled GitHub Actions workflow runs the same updater. It never edits the layout configuration.
 
-`items-26.1.json` is the original PrismarineJS Java 26.1 item catalog. See the repository's `THIRD_PARTY_NOTICES.md` for provenance. Item search also accepts custom and modded entries.
+`legacy-preset.json` contains historical chest labels and item names for old browser saves and JSON imports. It is compatibility data, not the current template.
+
+The application settings and prepared arrangement are under `config/`. Template contents refer to registry IDs; display names are resolved from `items.json` when the template is loaded.
