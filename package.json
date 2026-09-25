@@ -9,6 +9,6 @@
         "update:items": "node scripts/update-items.mjs"
     },
     "engines": {
-        "node": ">=20"
+        "node": ">=24"
     }
 }
