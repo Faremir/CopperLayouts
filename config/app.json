@@ -1,0 +1,18 @@
+{
+    "name": "CopperLayouts",
+    "storage_key": "copper_layouts_v4",
+    "legacy_storage_keys": [
+        "minecraft_storage_editor_v3",
+        "minecraft_storage_editor_v2",
+        "minecraft_storage_editor_v1"
+    ],
+    "history_limit": 100,
+    "default_module_counts": {"T": 3, "R": 3, "B": 3, "L": 3},
+    "catalog_path": "./items.json",
+    "catalog_metadata_path": "./items.meta.json",
+    "template_path": "./default-layout.json",
+    "legacy_preset_path": "./legacy-preset.json",
+    "template_upgrade_hashes": [
+        "5cfd192a34a3c6aa0e4241ad0df52b3c1abeec787be7b44e80e49972ffcd5bce"
+    ]
+}
