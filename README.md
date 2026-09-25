@@ -1,45 +1,75 @@
 # CopperLayouts
 
-A configurable Minecraft storage map with draggable chests, shared staging, item search, and editable floors. The prepared eight-floor layout is included.
+A configurable Minecraft storage map with draggable chests and floors, shared staging, item search, and an editable eight-floor template.
 
 [Open CopperLayouts](https://faremir.github.io/CopperLayouts/)
 
 ## Use
 
-Open `docs/index.html` directly in a modern browser. The app is self-contained and works offline.
+- Select a chest to see its contents. **Edit** changes its name and items; **Delete** removes it.
+- **+ Chest**, above staging, creates a chest there. Clicking an empty position creates one directly in that position.
+- Search **Add items** by display name or registry ID. **Add custom** supports modded items and other labels. Names remain editable.
+- Drag chests between positions and staging. Dropping onto an occupied position swaps the chests. **Move** also supports clicking a destination or moving between floors.
+- **+ Floor** and **Edit floor** sit beside the floor title. Each wall has its own number of 3×3 modules: `0` leaves it open, and `1–1,000` creates that many modules. The layout supports 10,000 modules in total. Long walls scroll independently. Shrinking or removing a floor stages its affected chests.
+- Drag floor tabs to reorder them. Floor numbers and chest coordinates then follow the new order, starting at `0` and increasing. Chest identities and contents stay intact. Focus a floor tab and use **Alt + Left/Right** for keyboard reordering.
+- **Clear** removes every floor, chest, and staged item after confirmation.
+- **Undo / Redo** covers moves, editing, reordering, imports, and Clear until the page is reloaded.
+- **Export / Import** saves and restores the complete layout, including item IDs, custom names, placements, staging, and physical neighbors. Earlier exports are supported.
 
-- Select a chest to see its contents. **Edit** changes its name and contents; **Delete** removes it.
-- **+ Chest** creates a chest in staging. Clicking an empty position creates one there.
-- Search **Add items** for Java 26.1 items, or choose **Add custom** for modded items and other labels. Each item name can be edited or removed. There are no per-item slot allocations.
-- Drag chests between positions and staging. Dropping onto an occupied position swaps the two chests. **Move** also lets you click a destination or move between floors.
-- **+ Floor** adds a floor. **Edit floor** renames it and sets an independent number of 3×3 modules for each wall. Use `0` for an open wall or `1–1,000` modules; the layout supports up to 10,000 modules in total. Long walls scroll independently. Removing modules, walls, or floors moves their chests into shared staging.
-- **Clear** removes all floors, chests, contents, and staging after confirmation, so you can start from scratch.
-- **Undo / Redo** applies to moves, chest edits, floor changes, imports, and Clear. History is available until the page is reloaded.
-- **Export** saves all floors, chests, item names and identifiers, placements, staging, and physical neighbor information as JSON. **Import** restores it. Exports from earlier versions are supported.
+Changes save in the current browser. Export a backup to move between devices or before clearing browser data. Personal layouts are never sent to GitHub.
 
-Changes save in the current browser. They are not uploaded to GitHub and do not sync between devices. Export a backup before moving to a different browser or address, or clearing browser data. An exported JSON file can be given to Codex for further changes.
+Positions use **T / M / B** for top, middle, and bottom. Bottom chests face the center. Column 1 is on your left when standing inside and facing a wall.
 
-Chest positions use **T / M / B** for top, middle, and bottom. Bottom chests face the center of the map. Column 1 is on your left when standing in the center and facing a wall. Stable floor and chest identifiers are preserved when names change.
+## Default template
+
+The template contains 659 chests in 81 modules, with 70 empty positions for expansion. Cobblestone, sand, and dirt each retain a complete 3×3 module. The compact endgame floor uses five modules: End materials and travel, diamond equipment, netherite equipment, End storage and finds, and collections. Music discs, armor trims, heads, pottery sherds, and banner patterns each share a collection chest. Alchemy uses one chest per assigned item category instead of repeating whole modules.
+
+Exact, unchanged older presets upgrade automatically. Edited layouts keep their contents and arrangement. To deliberately load the new template into an existing layout, import [`docs/default-layout.json`](docs/default-layout.json); Undo remains available afterward.
 
 ## Develop
 
-Requires Node.js 20 or later; no dependencies are needed.
+Requires Node.js 20 or later. There are no build dependencies. These package scripts also work with `bun run`.
 
 ```sh
 npm test
 npm run build
+npm run update:items
 ```
 
-`src/engine.js` handles validation, migration, physical neighbors, and immutable layout operations. `src/catalog.js` resolves legacy item names and repairs unchanged preset contents. `src/app.js` handles rendering, movement, history, search, and persistence. `src/editor.js` handles chest and floor forms. The HTML template and styles are in `src/page.html` and `src/style.css`.
+Application files use four-space indentation, descriptive methods, and small classes for stateful responsibilities:
 
-The build reads `data/default-layout.json` and the item catalog and produces the complete offline app at `docs/index.html`. Rebuild and commit that file after changing the source or data.
+- `PlannerApplication`: layout state, rendering, history, movement, and floor ordering.
+- `LayoutEditor`: chest and floor drafts, catalog selection, and form submission.
+- `ItemCatalog`: registry lookup, template resolution, search, and legacy item repair.
+- `ApplicationData`: independent loading of configuration and data.
+- `ItemCatalogUpdater`: upstream version selection, validation, and generated catalog files.
+
+`src/engine.js` keeps layout validation and immutable operations as pure functions. Formatting defaults are in `.editorconfig`.
+
+## Configuration and generated data
+
+| File | Purpose |
+| --- | --- |
+| `config/app.json` | Application defaults, persistence keys, data paths, and template migration fingerprints |
+| `config/default-layout.json` | Floors, chests, placements, and item registry IDs; no copied catalog names |
+| `data/items.json` | Generated PrismarineJS item registry |
+| `data/items.meta.json` | Minecraft version, upstream revision, source URL, count, and checksum |
+| `data/legacy-preset.json` | Historical labels used to repair old exports without overwriting custom entries |
+
+The website loads separate JSON, JavaScript, and CSS files. The build also creates `docs/offline.html`, a self-contained copy that can be opened directly from disk. The regular `docs/index.html` requires HTTP; for local development, serve `docs` with any static server.
+
+Rebuild and commit all generated files under `docs` after source or configuration changes.
+
+## Automatic item updates
+
+The **Update item catalog** GitHub Actions workflow runs daily at 05:23 UTC and can be started manually from the Actions tab. It selects the latest stable Java version available in PrismarineJS, resolves shared data paths, pins a single upstream revision, and validates the complete download. It changes only generated catalog data and rebuilt catalog assets; the default layout is maintained separately.
+
+Snapshots and pre-releases are skipped. A registry that removes a template item fails validation and leaves the published catalog intact. An unchanged registry produces no commit. Successful changes are tested, built, committed, and followed by an explicit Pages rebuild. The workflow uses GitHub's built-in token; no additional secret is needed.
 
 ## GitHub Pages
 
-In repository **Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/docs**, and save. The published app is self-contained and uses no external assets or custom domain.
+Repository **Settings → Pages** uses **Deploy from a branch**, branch **main**, folder **/docs**. No custom domain is required.
 
-## Item data
+## Attribution
 
-The bundled 1,506-item Java 26.1 catalog is from [PrismarineJS/minecraft-data](https://github.com/PrismarineJS/minecraft-data/blob/master/data/pc/26.1/items.json). Every prepared item uses its exact catalog name and `minecraft:` registry ID. Earlier generic categories such as “gold tools” have been expanded into individual catalog items. Types absent from the catalog, such as poplar and wool stairs, have been removed from the preset contents; 43 affected chests remain in place as empty “Unassigned” chests. Custom and modded entries can still be added manually.
-
-Existing saved layouts and older JSON imports are migrated automatically. Chest identities, placements, user-created chests, and custom edits are preserved; unchanged legacy preset contents receive the corrected items. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution and the snapshot identifier.
+The item registry comes from [PrismarineJS/minecraft-data](https://github.com/PrismarineJS/minecraft-data). The bundled version and exact source revision are recorded in `data/items.meta.json`. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
