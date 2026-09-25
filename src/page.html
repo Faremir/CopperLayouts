@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="dark">
 <title>CopperLayouts · Minecraft storage</title>
-<style>/*__STYLE__*/</style>
+<!-- STYLES -->
 </head>
 <body>
 <div class="app">
@@ -17,7 +17,6 @@
       <div id="results" class="results" role="region" aria-label="Search results" hidden></div>
     </div>
     <div class="actions">
-      <button id="newChest" type="button">+ Chest</button>
       <button id="undo" class="quiet" type="button" title="Undo (Ctrl/Cmd+Z)" disabled>↶ <span>Undo</span></button>
       <button id="redo" class="quiet" type="button" title="Redo (Ctrl/Cmd+Shift+Z)" disabled>↷ <span>Redo</span></button>
       <span class="divider" aria-hidden="true"></span>
@@ -27,8 +26,12 @@
       <input id="importFile" type="file" accept=".json,application/json" hidden>
     </div>
   </header>
-  <div class="floor-navigation"><nav id="floors" class="floors" aria-label="Floors"></nav><button id="newFloor" class="quiet" type="button">+ Floor</button></div>
-  <div class="floor-heading"><h1 id="floorName"></h1><button id="editFloor" class="quiet" type="button">Edit floor</button><span id="saveStatus" class="save-status" title="Changes save automatically in this browser">Saved</span></div>
+  <nav id="floors" class="floors" aria-label="Floors"></nav>
+  <div class="floor-heading">
+    <h1 id="floorName"></h1>
+    <div class="floor-actions"><button id="newFloor" class="floor-control" type="button">+ Floor</button><button id="editFloor" class="floor-control" type="button">Edit floor</button></div>
+    <span id="saveStatus" class="save-status" title="Changes save automatically in this browser">Saved</span>
+  </div>
   <div id="error" class="error" role="alert" hidden></div>
   <main id="mapScroll" class="map-scroll"><div id="map" class="map" aria-label="Floor chest layout"></div></main>
 </div>
@@ -36,7 +39,7 @@
   <form id="chestForm">
     <div class="dialog-heading"><h2 id="chestEditorHeading">Edit chest</h2><button type="button" data-close="chestEditor" class="quiet" aria-label="Close chest editor">✕</button></div>
     <label class="field">Chest name<input id="chestName" required maxlength="300" autocomplete="off"></label>
-    <div class="catalog-label"><label for="catalogSearch">Add items</label><small>Java 26.1</small></div>
+    <div class="catalog-label"><label for="catalogSearch">Add items</label><small id="catalogVersion"></small></div>
     <input id="catalogSearch" type="search" placeholder="Search items or type a custom name…" autocomplete="off" aria-controls="catalogResults">
     <div id="catalogResults" class="catalog-results"></div>
     <div class="contents-heading"><h3>Contents</h3><span id="draftItemCount"></span></div>
@@ -61,15 +64,6 @@
   <div class="dialog-actions"><button type="button" data-close="clearEditor">Cancel</button><button id="confirmClear" type="button" class="danger">Clear layout</button></div>
 </dialog>
 <div id="notice" class="notice" role="status" aria-live="polite"></div>
-<script>
-'use strict';
-const INITIAL_LAYOUT=/*__DATA__*/;
-const ITEM_CATALOG=/*__CATALOG__*/;
-const LEGACY_PRESET=/*__LEGACY_PRESET__*/;
-/*__ENGINE__*/
-/*__CATALOG_CODE__*/
-/*__APP__*/
-/*__EDITOR__*/
-</script>
+<!-- SCRIPTS -->
 </body>
 </html>
