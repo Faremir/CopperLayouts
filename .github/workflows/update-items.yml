@@ -1,0 +1,48 @@
+name: Update item catalog
+
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: update-item-catalog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh the latest stable Java catalog
+        run: node scripts/update-items.mjs
+      - name: Validate and build
+        run: |
+          npm test
+          npm run build
+      - name: Commit catalog changes
+        id: commit
+        run: |
+          git add data/items.json data/items.meta.json docs/items.json docs/items.meta.json docs/offline.html
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update the Minecraft item catalog'
+          git push
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+      - name: Rebuild GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: gh api --method POST "repos/$REPOSITORY/pages/builds"
