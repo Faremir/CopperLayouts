@@ -2848,7 +2848,7 @@ class LayoutEditor {
         get_element('draftItemCount').textContent = this.chest_draft.items.length;
         get_element('draftItems').innerHTML = this.chest_draft.items.length ? this.chest_draft.items.map((item, i) => `<div class="draft-item">
 <div class="draft-item-field">
-<input data-item-name="${i}" aria-label="Item name ${i + 1}" value="${escape_html(item.name)}" required maxlength="500" autocomplete="off">
+<input data-item-name="${i}" aria-label="Item name ${i + 1}" value="${escape_html(item.name)}" required maxlength="500" autocomplete="off" disabled="disabled>
 <small>${escape_html(item.itemId || 'Custom item')}</small>
 </div>
 <button type="button" class="quiet remove-item" data-remove-item="${i}" aria-label="Remove ${escape_html(item.name)}">✕</button>
